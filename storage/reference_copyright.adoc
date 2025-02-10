@@ -1,0 +1,25 @@
+---
+permalink: storage/reference_copyright.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= Urheberrecht
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+© 2021 NetApp. Alle Rechte vorbehalten. Gedruckt in den USA
+
+Dieses urheberrechtlich geschützte Dokument darf ohne die vorherige schriftliche Genehmigung des Urheberrechtsinhabers in keiner Form und durch keine Mittel- weder grafische noch elektronische oder mechanische, einschließlich Fotokopieren, Aufnehmen, Verkleben oder Speichern in einem elektronischen Abrufsystem - ohne vorherige schriftliche Genehmigung des Urheberrechtsinhabers.
+
+Software, die von urheberrechtlich geschütztem NetApp Material abgeleitet wird, unterliegt der folgenden Lizenz und dem folgenden Haftungsausschluss:
+
+DIESE SOFTWARE WIRD VON NetApp IN DER VORLIEGENDEN FORM UND OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GEWÄHRLEISTUNG ZUR VERFÜGUNG GESTELLT, EINSCHLIESSLICH, JEDOCH NICHT BESCHRÄNKT AUF DIE STILLSCHWEIGENDEN GARANTIEN DER MARKTGÄNGIGKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK, DIE HIERMIT AUSGESCHLOSSEN WERDEN. NetApp HAFTET AUF KEINEN FALL FÜR DIREKTE, INDIREKTE, ZUFÄLLIGE, BESONDERE, EXEMPLARISCHE ODER FOLGESCHÄDEN (EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE BESCHAFFUNG VON ERSATZWAREN ODER -DIENSTLEISTUNGEN, NUTZUNGS-, DATEN- ODER GEWINNAUSFALL ODER GESCHÄFTSUNTERBRECHUNGEN), WIE AUCH IMMER UND AUF JEDE THEORIE DER HAFTUNG, OB VERTRAGLICH VEREINBART, AUF STRIKTE HAFTUNG ODER UNERLAUBTE HANDLUNGEN (EINSCHLIESSLICH FAHRLÄSSIGKEIT ODER AUF ANDERE WEISE), DIE AUS DER NUTZUNG DIESER SOFTWARE ENTSTEHEN, AUCH WENN DIE MÖGLICHKEIT EINES SOLCHEN SCHADENS IN IRGENDEINER WEISE DARAUF HINGEWIESEN WIRD.
+
+NetApp behält sich das Recht vor, die hierin beschriebenen Produkte jederzeit und ohne Vorankündigung zu ändern. NetApp übernimmt keine Verantwortung oder Haftung für die Verwendung der hier beschriebenen Produkte, sofern nicht ausdrücklich in schriftlicher Form von NetApp angegeben. Die Verwendung oder der Erwerb dieses Produkts stellt keine Lizenzierung im Rahmen eines Patentrechts, Markenrechts oder eines anderen Rechts an geistigem Eigentum von NetApp dar.
+
+Das in diesem Handbuch beschriebene Produkt kann durch eines oder mehrere US-amerikanische oder ausländische Patente oder Patentanmeldungen geschützt sein.
+
+Die hierin enthaltenen Daten beziehen sich auf ein kommerzielles Produkt (wie in FAR 2.101 definiert) und sind Eigentum von NetApp, Inc. Die US-Regierung besitzt eine nicht ausschließliche, nicht übertragbare, nicht unterlizenzierbare, weltweite, limitierte unwiderrufliche Lizenz zur Nutzung der Daten nur in Verbindung mit und zur Unterstützung des Vertrags der US-Regierung, unter dem die Daten bereitgestellt wurden. Sofern in diesem Dokument nicht angegeben, dürfen die Daten nicht verwendet, offengelegt, reproduziert, geändert, ausgeführt, Oder angezeigt ohne vorherige schriftliche Genehmigung von NetApp Inc. Die Lizenzrechte der US-Regierung für das US-Verteidigungsministerium beschränken sich auf die Rechte, die in DFARS Absatz 252.227-7015(b) zu finden sind.

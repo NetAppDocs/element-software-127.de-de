@@ -1,0 +1,91 @@
+---
+permalink: api/reference_element_api_setremotelogginghosts.html 
+sidebar: sidebar 
+keywords: remote,logging,host,hosts,set,setting,setremotelogginghosts 
+summary: Mit der Methode SetRemoteLoggingHosts können Sie die Remote-Protokollierung von den Knoten im Storage Cluster zu einem zentralisierten Protokollserver oder -Server konfigurieren. Die Remote-Protokollierung erfolgt über TCP über den Standardport 514. Diese API wird den vorhandenen Protokollierungs-Hosts nicht hinzugefügt. Stattdessen ersetzt es, was derzeit mit neuen Werten, die durch diese API-Methode angegeben sind. Sie können GetRemoteLoggingHosts verwenden, um zu bestimmen, was die aktuellen Logging Hosts sind und dann SetRemoteLoggingHosts verwenden, um die gewünschte Liste der aktuellen und neuen Logging Hosts festzulegen. 
+---
+= SetRemoteLoggingHosts
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sie können die Methode verwenden `SetRemoteLoggingHosts`, um die Remote-Protokollierung von den Knoten im Speicher-Cluster zu einem zentralen Protokollserver oder Servern zu konfigurieren. Die Remote-Protokollierung erfolgt über TCP über den Standardport 514. Diese API wird den vorhandenen Protokollierungs-Hosts nicht hinzugefügt. Stattdessen ersetzt es, was derzeit mit neuen Werten, die durch diese API-Methode angegeben sind. Mit können Sie `GetRemoteLoggingHosts` die aktuellen Protokollierungs-Hosts bestimmen und anschließend `SetRemoteLoggingHosts` die gewünschte Liste der aktuellen und neuen Protokollierungs-Hosts festlegen.
+
+
+
+== Parameter
+
+Diese Methode verfügt über den folgenden Eingabeparameter:
+
+|===
+| Name | Beschreibung | Typ | Standardwert | Erforderlich 
+
+
+ a| 
+Abnehmbare Hosts
+ a| 
+Liste der Hosts, die Empfänger von Protokollnachrichten sind.
+ a| 
+xref:reference_element_api_loggingserver.adoc[LoggingServer] Array
+ a| 
+Keine
+ a| 
+Ja.
+
+|===
+
+
+== Rückgabewerte
+
+Diese Methode hat keine Rückgabewerte.
+
+
+
+== Anforderungsbeispiel
+
+Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
+
+[listing]
+----
+{
+   "id": 1,
+   "method": "SetRemoteLoggingHosts",
+   "params": {
+     "remoteHosts": [
+        {
+          "host": "172.16.1.20",
+          "port": 10514
+        },
+        {
+          "host": "172.16.1.25"
+        }
+      ]
+   }
+}
+----
+
+
+== Antwortbeispiel
+
+Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
+
+[listing]
+----
+{
+    "id" : 1,
+    "result" : {}
+}
+----
+
+
+== Neu seit Version
+
+9,6
+
+
+
+== Weitere Informationen
+
+xref:reference_element_api_getremotelogginghosts.adoc[GetRemoteLoggingHosts]

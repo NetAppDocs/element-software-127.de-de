@@ -1,0 +1,155 @@
+---
+permalink: api/reference_element_api_bulkvolumejob.html 
+sidebar: sidebar 
+keywords: bulkVolumeJob,object,objects,read,write,clones,snapshots,clone,snapshot 
+summary: Das bulkVolumeJob-Objekt enthält Informationen zu Lese- oder Schreibvorgängen des Massenvolumes, wie Klonen oder Snapshot-Erstellung. 
+---
+= BulkVolumeJob
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Das `bulkVolumeJob` Objekt enthält Informationen über Lese- und Schreibvorgänge auf Massenvolumes, wie z. B. Klonen oder Snapshot-Erstellung.
+
+
+
+== Objektmitglieder verwenden
+
+Dieses Objekt enthält die folgenden Mitglieder:
+
+|===
+| Name | Beschreibung | Typ 
+
+
+ a| 
+`attributes`
+ a| 
+JSON-Attribut des Massenvolumenjobs.
+ a| 
+JSON Objekt
+
+
+
+ a| 
+`bulkVolumeID`
+ a| 
+Die interne Job-ID für das Massenvolumen.
+ a| 
+Ganzzahl
+
+
+
+ a| 
+`createTime`
+ a| 
+Zeitstempel, der für den Massenvolumenauftrag im UTC+0-Format erstellt wurde.
+ a| 
+ISO 8601-Datumszeichenfolge
+
+
+
+ a| 
+`elapsedTime`
+ a| 
+Die Anzahl der Sekunden seit Beginn des Jobs.
+ a| 
+Zeichenfolge
+
+
+
+ a| 
+`format`
+ a| 
+Das Format des Massenvolumes-Vorgangs. Mögliche Werte:
+
+* Nativ
+* Unkomprimiert
+
+ a| 
+Zeichenfolge
+
+
+
+ a| 
+`key`
+ a| 
+Der eindeutige Schlüssel, der von der Massenvolumensitzung erstellt wird.
+ a| 
+Zeichenfolge
+
+
+
+ a| 
+`percentComplete`
+ a| 
+Der vom Vorgang gemeldete Prozentsatz des Abgeschlossen.
+ a| 
+Ganzzahl
+
+
+
+ a| 
+`remainingTime`
+ a| 
+Die geschätzte verbleibende Zeit in Sekunden.
+ a| 
+Ganzzahl
+
+
+
+ a| 
+`srcVolumeID`
+ a| 
+Die ID des Quell-Volume.
+ a| 
+Ganzzahl
+
+
+
+ a| 
+`status`
+ a| 
+Der Status des Vorgangs. Mögliche Werte:
+
+* Vorbereitung
+* Aktiv
+* Fertig
+* Fehlgeschlagen
+
+ a| 
+Zeichenfolge
+
+
+
+ a| 
+`script`
+ a| 
+Der Name des Skripts, falls vorhanden.
+ a| 
+Zeichenfolge
+
+
+
+ a| 
+`snapshotID`
+ a| 
+Die ID des Snapshots, wenn sich ein Snapshot in der Quelle des Jobs mit dem Massenvolumen befindet.
+ a| 
+Ganzzahl
+
+
+
+ a| 
+`type`
+ a| 
+Der Typ des Massenvorgangs. Mögliche Werte:
+
+* Lesen
+* Schreiben
+
+ a| 
+Zeichenfolge
+
+|===

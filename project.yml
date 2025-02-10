@@ -1,0 +1,51 @@
+---
+settings:
+  name: Element Software
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  versions:
+  - version-number: '12.7'
+    url: "/element-software"
+  - version-number: '12.5'
+    url: "/element-software-125"
+  - version-number: '12.3'
+    url: "/element-software-123"
+  langs: de-de,us-en,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Dokumentation für SolidFire und Element Software 12.7
+    url: "/index.html"
+  - title: Versionshinweise
+    url: "/concepts/concept_rn_relatedrn_element.html"
+    entries:
+    - title: Was ist neu
+      url: "/concepts/concept_rn_whats_new_element.html"
+  - section: concepts
+  - title: Anforderungen
+    url: "/setup/concept_requirements_overview.html"
+    entries:
+    - title: Netzwerkanforderungen
+      url: "/storage/concept_prereq_networking.html"
+    - title: Switch-Konfiguration für Cluster mit Element Software
+      url: "/storage/concept_prereq_switch_configuration_for_solidfire_clusters.html"
+    - title: Anforderungen an Netzwerk-Ports
+      url: "/storage/reference_prereq_network_port_requirements.html"
+  - section: try
+  - section: hardware
+  - section: setup
+  - section: storage
+  - section: hccstorage
+  - section: api
+  - title: Management von Storage mit dem Element Plug-in für vCenter Server
+    url: "/element-plug-in-index.html"
+  - title: Monitoring von Storage mit NetApp SolidFire Active IQ
+    url: "/monitor-storage-active-iq.html"
+  - section: mnode
+  - section: upgrade
+  - title: Frühere Versionen
+    url: "/element-earlierversions.html"
+  - title: Rechtliche Hinweise
+    url: "/legal-notices.html"
