@@ -15,8 +15,8 @@ Für die Implementierung von Lösungen in vielen Kundenumgebungen wird die Siche
 
 * link:task_system_manage_fips_avoid_mixing_nodes_for_fips_drives.html["Vermeiden Sie das Kombinieren von Nodes für FIPS-Laufwerke"]
 * link:task_system_manage_fips_enable_encryption_at_rest.html["Verschlüsselung für Daten im Ruhezustand aktivieren"]
-* link:task_system_manage_fips_identify_nodes_ready_for_fips_drives["Ermitteln, ob Nodes für die FIPS-Laufwerksfunktion bereit sind"]
+* link:task_system_manage_fips_identify_nodes_ready_for_fips_drives.html["Ermitteln, ob Nodes für die FIPS-Laufwerksfunktion bereit sind"]
 * link:task_system_manage_fips_enable_the_fips_drives_feature.html["Aktivierung der FIPS-Laufwerksfunktion"]
 * link:task_system_manage_fips_check_the_fips_drive_status.html["Prüfen Sie den FIPS-Laufwerksstatus"]
-* link:task_system_manage_fips_troubleshoot_the_fips_drive_feature["Fehlerbehebung für die FIPS-Laufwerksfunktion"]
+* link:task_system_manage_fips_troubleshoot_the_fips_drive_feature.html["Fehlerbehebung für die FIPS-Laufwerksfunktion"]
 

@@ -14,7 +14,7 @@ summary: 'Sie können die EnableVerschlüsselungAtRest-Methode verwenden, um die
 Mit dieser Methode kann `EnableEncryptionAtRest` die 256-Bit-Verschlüsselung des Advanced Encryption Standard (AES) im Ruhezustand auf dem Cluster aktiviert werden, sodass das Cluster den für die Laufwerke auf jedem Node verwendeten Verschlüsselungsschlüssel verwalten kann. Diese Funktion ist standardmäßig nicht aktiviert.
 
 
-TIP: Um den aktuellen Status der Verschlüsselung im Ruhezustand und/oder der Softwareverschlüsselung im Ruhezustand auf dem Cluster anzuzeigen, verwenden Sie die link:../api/reference_element_api_getclusterinfo["Abrufen der Cluster Info-Methode"^]. Sie können die verwenden `GetSoftwareEncryptionAtRestInfo` link:../api/reference_element_api_getsoftwareencryptionatrestinfo["Methode zum Abrufen von Informationen, die das Cluster verwendet, um Daten im Ruhezustand zu verschlüsseln"^].
+TIP: Um den aktuellen Status der Verschlüsselung im Ruhezustand und/oder der Softwareverschlüsselung im Ruhezustand auf dem Cluster anzuzeigen, verwenden Sie die link:../api/reference_element_api_getclusterinfo.html["Abrufen der Cluster Info-Methode"^]. Sie können die verwenden `GetSoftwareEncryptionAtRestInfo` link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html["Methode zum Abrufen von Informationen, die das Cluster verwendet, um Daten im Ruhezustand zu verschlüsseln"^].
 
 
 NOTE: Bei dieser Methode wird die Softwareverschlüsselung im Ruhezustand nicht aktiviert. Dies kann nur mit der Option mit `enableSoftwareEncryptionAtRest` gesetzt auf `true` erfolgenlink:../api/reference_element_api_createcluster.html["Cluster-Methode erstellen"^].

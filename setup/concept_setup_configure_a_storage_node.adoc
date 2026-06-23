@@ -44,7 +44,7 @@ IMPORTANT: Sie sollten die Management-Schnittstellen (Bond1G) und Storage-Schnit
 .Schritte
 . Geben Sie in einem Browser-Fenster die DHCP-IP-Adresse eines Node ein.
 +
-Sie müssen die Erweiterung hinzufügen `:442`, um auf den Knoten zuzugreifen, z. B. https://172.25.103.6:442[] .
+Sie müssen die Erweiterung  `:442` hinzufügen, um auf den Node zugreifen zu können; zum Beispiel  `\https://172.25.103.6:442`.
 
 +
 Die Registerkarte *Network Settings* wird mit dem Abschnitt *Bond1G* geöffnet.
