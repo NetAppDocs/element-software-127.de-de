@@ -28,6 +28,7 @@ Ein Cluster kann zu bis zu vier anderen Clustern zur Replizierung von Volumes zu
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_prereq_network_port_requirements.adoc[Anforderungen an Netzwerk-Ports]

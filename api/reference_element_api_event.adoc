@@ -15,6 +15,7 @@ Das Event-Objekt enthält Details zu Ereignissen, die während eines API-Methode
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -125,6 +126,7 @@ ISO 8601-Datumszeichenfolge
 
 
 
+[[event-types]]
 == Ereignistypen
 
 In der folgenden Liste werden die möglichen Ereignistypen beschrieben, die das EventInfoType-Mitglied enthalten kann:
@@ -163,6 +165,7 @@ In der folgenden Liste werden die möglichen Ereignistypen beschrieben, die das 
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_listevents.adoc[ListEvents]

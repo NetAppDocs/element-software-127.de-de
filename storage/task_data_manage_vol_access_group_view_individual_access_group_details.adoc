@@ -20,6 +20,7 @@ Sie können Details für eine einzelne Zugriffsgruppe, z. B. verbundene Volumes 
 
 
 
+[[volume-access-group-details]]
 == Details zu Volume-Zugriffsgruppen
 
 Die Seite Zugriffsgruppen auf der Registerkarte Verwaltung enthält Informationen zu Volume Access Groups.

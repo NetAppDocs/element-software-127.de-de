@@ -15,12 +15,14 @@ Mit dieser Methode können `GetLldpInfo` Sie die LLDP-Konfiguration (Link Layer 
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode hat keine Eingabeparameter.
 
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode verfügt über die folgenden Rückgabewerte:
@@ -39,6 +41,7 @@ JSON Objekt
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -52,18 +55,21 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Aufgrund der Länge dieses Antwortbeispiels wird es in einem ergänzenden Thema dokumentiert.
 
 
 
+[[new-since-version]]
 == Neu seit Version
 
 11,0
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_response_example_getlldpinfo.adoc[GetLldpInfo]

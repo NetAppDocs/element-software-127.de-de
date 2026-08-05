@@ -24,12 +24,14 @@ NetApp Element Software definiert verschiedene Node-Rollen für ein Cluster. Die
 
 
 
+[[management-node]]
 == Management-Node
 
 Ein Management-Node ist eine Virtual Machine, die für Upgrades und die Bereitstellung von Systemservices wie Monitoring und Telemetrie, das Management von Cluster-Assets und -Einstellungen, die Ausführung von Systemtests und Dienstprogrammen sowie den NetApp-Support-Zugriff für die Fehlerbehebung verwendet wird. link:../concepts/concept_intro_management_node.html["Weitere Informationen ."]
 
 
 
+[[storage-node]]
 == Storage-Node
 
 Ein SolidFire-Storage-Node ist ein Server, der eine Sammlung von Laufwerken enthält, die über die Bond10G-Netzwerkschnittstelle miteinander kommunizieren. Laufwerke im Node enthalten Block- und Metadatenspeicherplatz für den Daten-Storage und das Datenmanagement. Jeder Node enthält ein Factory Image der NetApp Element Software.
@@ -45,6 +47,7 @@ Storage-Nodes weisen folgende Merkmale auf:
 
 
 
+[[fibre-channel-node]]
 == Fibre Channel-Node
 
 SolidFire Fibre Channel Nodes stellen Konnektivität zu einem Fibre Channel Switch bereit, den Sie mit Fibre Channel Clients verbinden können. Fibre Channel Nodes fungieren als Protokollkonverter zwischen den Fibre Channel- und iSCSI-Protokollen. So können Sie jedem neuen oder vorhandenen SolidFire Cluster Fibre Channel-Konnektivität hinzufügen.
@@ -59,6 +62,7 @@ Fibre-Channel-Nodes weisen folgende Merkmale auf:
 
 
 
+[[node-states-of-operation]]
 == Node-Status des Vorgangs
 
 [role="lead"]

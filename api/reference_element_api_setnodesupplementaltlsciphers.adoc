@@ -15,6 +15,7 @@ Sie können die Methode verwenden `SetNodeSupplementalTlsCiphers`, um die Liste 
 
 
 
+[[parameter]]
 == Parameter
 
 
@@ -44,6 +45,7 @@ Ja.
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode verfügt über die folgenden Rückgabewerte:
@@ -71,6 +73,7 @@ Zeichenfolge
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -92,6 +95,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:

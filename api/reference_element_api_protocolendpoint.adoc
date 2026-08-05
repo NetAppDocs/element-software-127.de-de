@@ -15,6 +15,7 @@ Das Objekt ProtocolEndpoint enthält die Attribute eines Protokollendpunkts. Sie
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -88,6 +89,7 @@ Ganzzahl
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_listprotocolendpoints.adoc[ListProtocolEndpunkte]

@@ -32,6 +32,7 @@ IMPORTANT: SolidFire Storage-Systeme unterstützen das Entfernen eines Laufwerks
 
 
 
+[[for-more-information]]
 == Finden Sie weitere Informationen
 
 * xref:task_troubleshoot_remove_failed_drives.adoc[Entfernen ausgefallener Laufwerke aus dem Cluster]

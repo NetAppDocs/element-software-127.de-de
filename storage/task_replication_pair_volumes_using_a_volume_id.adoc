@@ -55,6 +55,7 @@ Nach erfolgreichem Abschluss der Paarung wird empfohlen, die Volumetabelle zu ak
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:reference_replication_volume_pairing_messages.adoc[Meldungen zur Volume-Kopplung]

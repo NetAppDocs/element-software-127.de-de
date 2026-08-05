@@ -15,6 +15,7 @@ Sie können die Methode verwenden `ResetNodeSupplementalTlsCiphers`, um die List
 
 
 
+[[parameter]]
 == Parameter
 
 
@@ -28,12 +29,14 @@ Diese Methode hat keine Eingabeparameter.
 
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode hat keine Rückgabewerte.
 
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -48,6 +51,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:

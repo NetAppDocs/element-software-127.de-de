@@ -15,12 +15,14 @@ Mit der Methode können `ListActiveNodes` Sie die Liste der derzeit aktiven Node
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode hat keine Eingabeparameter.
 
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -39,6 +41,7 @@ xref:reference_element_api_node.adoc[Knoten] Array
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -53,18 +56,21 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Aufgrund der Länge dieses Antwortbeispiels wird es in einem ergänzenden Thema dokumentiert.
 
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_response_example_listactivenodes.adoc[ListenActiveNodes]

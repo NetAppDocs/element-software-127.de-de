@@ -15,6 +15,7 @@ Sie können die Methode verwenden `CreateIpdConfiguration`, um eine potenzielle 
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über die folgenden Eingabeparameter:
@@ -50,6 +51,7 @@ Ja.
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -70,6 +72,7 @@ link:reference_element_api_idpconfiginfo.html["IdpConfigInfo"]
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -93,6 +96,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -122,6 +126,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 12,0

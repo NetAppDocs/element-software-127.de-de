@@ -15,18 +15,21 @@ Sie können die Methode verwenden `ResetNetworkConfig`, um Probleme bei der Netz
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode hat keine Eingabeparameter.
 
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat keine Rückgabewerte.
 
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -41,12 +44,14 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt keine Antwort zurück.
 
 
 
+[[new-since-version]]
 == Neu seit Version
 
 11,0

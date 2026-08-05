@@ -17,6 +17,7 @@ Wenn Sie ein Konto sperren, werden alle vorhandenen Verbindungen dieses Kontos s
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über die folgenden Eingabeparameter:
@@ -121,6 +122,7 @@ Nein
 |===
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -141,6 +143,7 @@ xref:reference_element_api_account.adoc[Konto]
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind dem folgenden Beispiel ähnlich. In diesem Beispiel werden die Attribute gelöscht, indem {} für sie angegeben wird:
@@ -159,6 +162,7 @@ Anforderungen für diese Methode sind dem folgenden Beispiel ähnlich. In diesem
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -183,6 +187,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

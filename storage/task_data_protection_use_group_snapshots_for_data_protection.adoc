@@ -15,6 +15,7 @@ Sie können einen Gruppen-Snapshot einer verwandten Gruppe von Volumes erstellen
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:task_data_protection_create_a_group_snapshot.adoc[Erstellen Sie einen Gruppen-Snapshot]

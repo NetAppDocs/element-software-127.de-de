@@ -27,6 +27,7 @@ NOTE: Der Kopplungsschlüssel für das Volume enthält eine verschlüsselte Vers
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:task_replication_pair_volumes_using_a_volume_id.adoc[Kombinieren Sie Volumes mit einer Volume-ID]

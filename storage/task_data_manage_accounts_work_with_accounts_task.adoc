@@ -17,6 +17,7 @@ Einem Konto können bis zu zweitausend Volumes zugewiesen sein, ein Volume kann 
 
 
 
+[[chap-algorithms]]
 == CHAP-Algorithmen
 
 Ab Element 12.7 werden sichere FIPS-kompatible CHAP-Algorithmen SHA1, SHA-256 und SHA3-256 unterstützt. Wenn in Element 12.7 ein Host-iSCSI-Initiator eine iSCSI-Sitzung mit einem Element-iSCSI-Ziel erstellt, fordert er eine Liste der zu verwendenden CHAP-Algorithmen an. Das Element iSCSI-Ziel wählt den ersten Algorithmus aus, der es aus der vom Host-iSCSI-Initiator angeforderten Liste unterstützt. Um zu überprüfen, ob das Element iSCSI-Ziel den sichersten Algorithmus wählt, müssen Sie den Host-iSCSI-Initiator so konfigurieren, dass eine Liste von Algorithmen gesendet wird, die von der sichersten geordnet sind, z. B. SHA3-256, um die Sicherheit am wenigsten zu gewährleisten. SHA1 oder MD5. Wenn SHA-Algorithmen nicht vom Host-iSCSI-Initiator angefordert werden, wählt das Element iSCSI-Ziel MD5 aus, vorausgesetzt, die vorgeschlagene Algorithmusliste vom Host enthält MD5. Möglicherweise müssen Sie die Host-iSCSI-Initiator-Konfiguration aktualisieren, um die Unterstützung für die sicheren Algorithmen zu aktivieren.
@@ -29,6 +30,7 @@ Bei Bedarf können Sie die API-Methode verwenden https://docs.netapp.com/us-en/e
 
 
 
+[[create-an-account]]
 == Erstellen Sie ein Konto
 
 Sie können ein Konto erstellen, um den Zugriff auf Volumes zu ermöglichen.
@@ -53,6 +55,7 @@ NOTE: Lassen Sie die Felder für Anmeldeinformationen leer, um ein Kennwort auto
 
 
 
+[[view-account-details]]
 == Kontodetails anzeigen
 
 Sie können Leistungsaktivitäten für einzelne Konten in einem grafischen Format anzeigen.
@@ -82,6 +85,7 @@ Hier sind einige Details:
 
 
 
+[[edit-an-account]]
 == Bearbeiten Sie ein Konto
 
 Sie können ein Konto bearbeiten, um den Status zu ändern, die CHAP-Schlüssel zu ändern oder den Kontonamen zu ändern.
@@ -110,6 +114,7 @@ NOTE: Wenn Sie die *CHAP-Einstellungen*-Anmeldeinformationen nicht ändern, blei
 
 
 
+[[delete-an-account]]
 == Löschen Sie ein Konto
 
 Sie können ein Konto löschen, wenn es nicht mehr benötigt wird.
@@ -127,6 +132,7 @@ IMPORTANT: Persistente Volumes, die mit Managementservices verknüpft sind, werd
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

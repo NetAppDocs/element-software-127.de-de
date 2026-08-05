@@ -27,6 +27,7 @@ Siehe link:../concepts/concept_data_manage_volumes_solidfire_quality_of_service.
 
 
 
+[[create-a-qos-policy]]
 == Erstellen einer QoS-Richtlinie
 
 Sie können QoS-Richtlinien erstellen und sie bei der Erstellung von Volumes anwenden.
@@ -40,6 +41,7 @@ Sie können QoS-Richtlinien erstellen und sie bei der Erstellung von Volumes anw
 
 
 
+[[edit-a-qos-policy]]
 == Bearbeiten einer QoS-Richtlinie
 
 Sie können den Namen einer vorhandenen QoS-Richtlinie ändern oder die mit der Richtlinie verknüpften Werte bearbeiten. Die Änderung einer QoS-Richtlinie wirkt sich auf alle Volumes aus, die mit der Richtlinie verknüpft sind.
@@ -60,6 +62,7 @@ Sie können den Namen einer vorhandenen QoS-Richtlinie ändern oder die mit der 
 
 
 
+[[delete-a-qos-policy]]
 == Löschen einer QoS-Richtlinie
 
 Die QoS-Richtlinie kann gelöscht werden, wenn sie nicht mehr benötigt wird. Wenn Sie eine QoS-Richtlinie löschen, behalten alle mit der Richtlinie verknüpften Volumes die QoS-Einstellungen bei, werden aber einer Richtlinie nicht zugeordnet.
@@ -75,6 +78,7 @@ NOTE: Wenn Sie versuchen, die Zuordnung eines Volumes zu einer QoS-Richtlinie au
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * link:task_data_manage_volumes_remove_a_qos_policy_association_of_a_volume.html["Entfernen Sie die QoS-Richtlinienzuordnung eines Volumes"]

@@ -15,6 +15,7 @@ Das Fehlerobjekt enthält Informationen über Fehler, die im Cluster erkannt wer
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -180,6 +181,7 @@ Zeichenfolge
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:reference_element_api_listclusterfaults.adoc[ListenClusterstandards]

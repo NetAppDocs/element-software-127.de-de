@@ -20,6 +20,7 @@ NOTE: Sie können Snapshots erstellen, wenn die Cluster-Fülle sich an Phase 1, 
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über die folgenden Eingabeparameter:
@@ -242,6 +243,7 @@ Ja (bei Terminplanung für Wochentage)
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode verfügt über die folgenden Rückgabewerte:
@@ -271,6 +273,7 @@ xref:reference_element_api_schedule.adoc[Zeitplan]
 |===
 
 
+[[request-example-1]]
 == Anforderungsbeispiel 1
 
 Die folgende Beispiel-Planung verfügt über die folgenden Parameter:
@@ -319,6 +322,7 @@ Die folgende Beispiel-Planung verfügt über die folgenden Parameter:
 ----
 
 
+[[response-example-1]]
 == Antwortbeispiel 1
 
 Die obige Anforderung gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -367,6 +371,7 @@ Die obige Anforderung gibt eine Antwort zurück, die dem folgenden Beispiel ähn
 ----
 
 
+[[request-example-2]]
 == Anforderungsbeispiel 2
 
 Die folgende Beispiel-Planung verfügt über die folgenden Parameter:
@@ -409,6 +414,7 @@ Die folgende Beispiel-Planung verfügt über die folgenden Parameter:
 ----
 
 
+[[response-example-2]]
 == Antwortbeispiel 2
 
 Die obige Anforderung gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -452,6 +458,7 @@ Die obige Anforderung gibt eine Antwort zurück, die dem folgenden Beispiel ähn
 ----
 
 
+[[request-example-3]]
 == Anforderungsbeispiel 3
 
 Die folgende Beispiel-Planung verfügt über die folgenden Parameter:
@@ -489,6 +496,7 @@ Die folgende Beispiel-Planung verfügt über die folgenden Parameter:
 ----
 
 
+[[response-example-3]]
 == Antwortbeispiel 3
 
 Die obige Anforderung gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -534,6 +542,7 @@ Die obige Anforderung gibt eine Antwort zurück, die dem folgenden Beispiel ähn
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

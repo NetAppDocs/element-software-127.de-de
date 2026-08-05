@@ -15,6 +15,7 @@ Sie können die Methode verwenden `TestConnectEnsemble`, um die Verbindung mit e
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über den folgenden Eingabeparameter:
@@ -27,6 +28,7 @@ Diese Methode verfügt über den folgenden Eingabeparameter:
 |===
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -46,6 +48,7 @@ Zurückgegebene Objekte:
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -60,6 +63,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -85,6 +89,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

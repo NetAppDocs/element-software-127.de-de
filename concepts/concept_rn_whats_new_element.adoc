@@ -19,18 +19,21 @@ NOTE: Die kumulativen Software- und Firmware-Updates werden im Rahmen eines Upgr
 
 
 
+[[element-12-7]]
 == Element 12.7
 
 Informieren Sie sich über die Neuerungen in Element 12.7.
 
 
 
+[[secure-chap-algorithms]]
 === Sichere CHAP-Algorithmen
 
 Element 12.7 bietet Unterstützung für sichere FIPS-konforme CHAP-Algorithmen (Challenge-Handshake Authentication Protocol) SHA1, SHA-256 und SHA3-256. link:../storage/task_data_manage_accounts_work_with_accounts_task.html["Weitere Informationen ."].
 
 
 
+[[dynamic-block-bin-sync-in-rate]]
 === Dynamische Blocksynchronisation (bin)
 
 Cluster-Vorgänge wie Ergänzungen, Upgrades oder Wartungen von Nodes oder das Hinzufügen von Laufwerken usw. lösen Block-Sync (bin) aus, um Block-Daten an die neuen oder aktualisierten Nodes in einem Cluster-Layout zu verteilen. Die Verwendung einer einzigen, langsamen Geschwindigkeit als Standard-Synchronisationsrate führt dazu, dass diese Vorgänge viel Zeit in Anspruch nehmen, und nutzt nicht die höhere Verarbeitungsleistung größerer Nodes. Ab Element 12.7 wird die Sync-in-Rate basierend auf der Anzahl der Kerne im Storage-Node dynamisch optimiert, sodass diese Vorgänge deutlich schneller ablaufen.
@@ -43,18 +46,21 @@ Wenn Sie Storage-Nodes entfernen, wird die Synchronisationsrate des Blocks nicht
 
 
 
+[[garbage-collection-improvement]]
 === Verbesserung der Speicherbereinigung
 
 Bei Clustern mit größeren Storage-Nodes beispielsweise führt ein H610S-4 mit einem belegten Speicherplatz von 1 PB sehr hohe Workloads mit Überschreibungen aus, Dank hoher Deduplizierung und Komprimierung kann der Speicherbereinigung jetzt mithalten, da die standardmäßige Bloom-Filtergröße für die größeren Nodes von 700 GB oder mehr Speicher auf 1048576 Bit erhöht wurde. Diese Änderung wird automatisch wirksam, wenn Sie Ihre Storage-Nodes auf Element 12.7 aktualisieren. Es hat keine Auswirkungen auf kleinere Nodes.
 
 
 
+[[scale-improvement]]
 === Verbesserung der Skalierbarkeit
 
 Bei Element 12.7 sind keine spezifischen Sequenzen mehr nötig, wenn einem vorhandenen Cluster mehrere Storage-Nodes mit Block- und Metadatenlaufwerken hinzugefügt werden müssen. Über die Element UI oder API können Sie einfach alle verfügbaren Laufwerke auswählen und dann alle Massenvorgänge gleichzeitig hinzufügen. Element 12.7 verwaltet die Datensynchronisierung automatisch, sodass alle Block-Services gleichzeitig synchronisiert werden. Wenn die Block-Services für jeden Node die Synchronisierung abgeschlossen haben, kann das Metadatenlaufwerk dieses Node den Host-Volumes zugewiesen werden. Diese Verbesserung durch Skalierung reduziert deutlich die Latenz bei der Lesereaktionszeit und verhindert eine Verschlechterung der Performance, während Daten zwischen neu hinzugefügten Storage-Nodes synchronisiert werden.
 
 
 
+[[storage-node-firmware-updates]]
 === Updates der Storage Node-Firmware
 
 Element 12.7 enthält das Storage-Firmware-Bundle Version 2.164.0, das auch die Unterstützung neuer Systemkomponenten bietet. link:https://docs.netapp.com/us-en/hci/docs/rn_storage_firmware_2.164.0.html["Weitere Informationen ."].
@@ -64,6 +70,7 @@ NOTE: In Element 12.7 sind keine neuen Firmware-Updates vorhanden. Basierend auf
 
 
 
+[[solidfire-active-iq-documentation]]
 === SolidFire Active IQ-Dokumentation
 
 In der SolidFire Active IQ-Benutzeroberfläche können Sie jetzt auf der Seite QoS-Management navigieren, um Empfehlungen und Informationen zur Knotendrosselung für das Cluster anzuzeigen. Darüber hinaus wird auf dem Cluster-Dashboard jetzt die Gesamtanzahl der Snapshots angezeigt. Weitere aktuelle Verbesserungen sind das Hinzufügen primärer und sekundärer Node-Informationen für aktive Volumes und des durchschnittlichen Durchsatzes, der IOPS-Werte und der durchschnittlichen Latenz der letzten 30 Minuten auf primären Volumes auf einem Node.
@@ -72,48 +79,56 @@ Sie haben jetzt über die Dokumentation der Element Software Zugriff auf die Sol
 
 
 
+[[netapp-bugs-online-contains-resolved-and-known-issues]]
 === NetApp Bugs Online enthält gelöste und bekannte Probleme
 
 Gelöste und bekannte Probleme sind im NetApp Bugs Online-Tool aufgeführt. Sie können diese Probleme für Element Software und andere Produkte unter durchsuchen https://mysupport.netapp.com/site/products/all/details/element-software/bugsonline-tab["NetApp Bugs Online"^].
 
 
 
+[[element-12-5]]
 == Element 12.5
 
 Element 12.5 bietet einen verbesserten Zugriff auf Speicherknoten, eine verbesserte Verwaltung benutzerdefinierter Schutzdomänen, neue und verbesserte Clusterfehler und -Ereignisse, erweiterte Funktionen zur Cluster-Benutzeroberfläche erstellen und verbesserte Sicherheit.
 
 
 
+[[improved-storage-node-access]]
 === Verbesserter Zugriff auf Storage-Nodes
 
 Element 12.5 bietet mithilfe signierter SSH-Zertifikate einen verbesserten Remote-Zugriff auf einzelne Knoten. Um einen sicheren Remote-Zugriff auf Speicher-Nodes zu ermöglichen, wird jetzt während des RTFI eines Storage-Knotens ein neues, mit begrenzten Berechtigungen benanntes lokales Benutzerkonto `sfreadonly` erstellt. Das `sfreadonly` Konto ermöglicht den Zugriff auf das Storage-Node-Back-End für grundlegende Wartungs- oder Fehlerbehebungszwecke. Sie können jetzt den Zugriffstyp für einen Cluster-Administrator konfigurieren `supportAdmin`, damit der NetApp Support nach Bedarf Zugriff auf das Cluster erhält.
 
 
 
+[[enhanced-custom-protection-domains-manageability]]
 === Verbessertes Management individueller Sicherungsdomänen
 
 Element 12.5 verfügt über eine neue Benutzeroberfläche, mit der Sie vorhandene benutzerdefinierte Schutz-Domains schnell und einfach anzeigen und neue benutzerdefinierte Schutz-Domains konfigurieren können.
 
 
 
+[[new-and-improved-cluster-faults-events-and-alerts]]
 === Neue und verbesserte Fehler, Ereignisse und Warnmeldungen im Cluster
 
 Element 12.5 verbessert die Fehlersuche in Ihrem System mit der Einführung der neuen Cluster-Fehlercodes `BmcSelfTestFailed` und `CpuThermalEventThreshold`. Element 12.5 enthält auch Robustheitsverbesserungen für bestehende Cluster-Ereignisse und Warnungen, wie `nodeOffline`, , `volumeOffline` `driveHealthFault` , `networkEvent` und	`cSumEvent`.
 
 
 
+[[enable-software-encryption-at-rest-from-the-create-cluster-ui]]
 === Aktivieren Sie die Softwareverschlüsselung im Ruhezustand über die Benutzeroberfläche Cluster erstellen
 
 Durch Hinzufügen eines neuen Kontrollkästchens in der Benutzeroberfläche „Cluster erstellen“ bietet Element 12.5 die Möglichkeit, während der Cluster-Erstellung Cluster-übergreifende Softwareverschlüsselung für SolidFire All-Flash-Storage-Cluster zu aktivieren.
 
 
 
+[[storage-node-firmware-updates]]
 === Updates der Storage Node-Firmware
 
 Element 12.5 umfasst Firmware-Updates für Storage-Nodes. link:../concepts/concept_rn_relatedrn_element.html#storage-firmware["Weitere Informationen ."].
 
 
 
+[[enhanced-security]]
 === Erhöhte Sicherheit
 
 Element 12.5 enthält die Minderung, die das Risiko der Element Software gegenüber der Apache Log4j-Sicherheitsanfälligkeit schließt. NetApp SolidFire Storage-Cluster mit aktivierter Funktion Virtual Volumes (VVols) sind der Apache Log4j Sicherheitsanfälligkeit ausgesetzt. Informationen zum Workaround für die Sicherheitsanfälligkeit von Apache Log4j in der NetApp Element-Software finden Sie im {url-Peak}[KB-Artikel^].
@@ -124,6 +139,7 @@ Element 12.5 umfasst außerdem mehr als 120 CVE-Sicherheitsvorkehrungen.
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["Versionshinweise zu NetApp Hybrid Cloud Control and Management Services"^]
@@ -131,6 +147,6 @@ Element 12.5 umfasst außerdem mehr als 120 CVE-Sicherheitsvorkehrungen.
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"^]
 * http://docs.netapp.com/sfe-122/index.jsp["SolidFire und Element Software Dokumentationszentrum für frühere Versionen"^]
-* https://www.netapp.com/us/documentation/hci.aspx["Ressourcen-Seite zu NetApp HCI"^]
+* https://docs.netapp.com/us-en/hci/index.html["Ressourcen-Seite zu NetApp HCI"^]
 * link:../hardware/fw_storage_nodes.html["Unterstützte Storage-Firmware-Versionen für SolidFire Storage-Nodes"]
 

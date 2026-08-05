@@ -15,6 +15,7 @@ Sie können die Methode verwenden `RemoveClusterPair`, um die offenen Verbindung
 
 
 
+[[parameter]]
 == Parameter
 
 
@@ -40,12 +41,14 @@ Ja.
 |===
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat keinen Rückgabewert.
 
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -62,6 +65,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -75,6 +79,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

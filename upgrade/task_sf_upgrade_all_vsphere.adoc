@@ -36,6 +36,7 @@ Bei einem Element Plug-in für vCenter Server 4.x kann das Plug-in bei einem Upg
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

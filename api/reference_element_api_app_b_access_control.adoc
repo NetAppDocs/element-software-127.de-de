@@ -14,7 +14,11 @@ summary: Die verfügbaren Element-API-Methoden variieren je nach Zugriffstyp.
 Die verfügbaren Element-API-Methoden variieren je nach Zugriffstyp.
 
 
+NOTE: Über die API stehen Zugriffstypen zur Verfügung, die in der Element UI nicht verfügbar sind.
 
+
+
+[[accounts]]
 == Konten
 
 Für den Zugriffstyp „Accounts“ stehen folgende Methoden zur Verfügung:
@@ -58,12 +62,14 @@ RemoveAccount
 |===
 
 
+[[administrator]]
 == Verwalter
 
 Alle Methoden stehen dem Zugriffstyp des Administrators zur Verfügung.
 
 
 
+[[clusteradmin]]
 == ClusterAdmin
 
 Die folgenden Methoden sind für den Zugriffstyp „Cluster-Admin“ verfügbar:
@@ -461,6 +467,7 @@ GetVirtualNetwork
 |===
 
 
+[[drives]]
 == Laufwerke
 
 Für den Laufwerkszugriffstyp stehen folgende Methoden zur Verfügung:
@@ -489,6 +496,7 @@ SecureEraseDrives
 |===
 
 
+[[nodes]]
 == Knoten
 
 Die folgenden Methoden sind für den Node-Zugriffstyp verfügbar:
@@ -517,6 +525,7 @@ RemoveNodes
 |===
 
 
+[[read]]
 == Lesen
 
 Die folgenden Methoden sind für den Lesetyp verfügbar:
@@ -660,6 +669,7 @@ ListBackupTargets
 |===
 
 
+[[reporting]]
 == Berichterstellung
 
 Für den Zugriffstyp Berichterstellung sind folgende Methoden verfügbar:
@@ -818,12 +828,14 @@ ListVolumeStatsByVolumeAccessGroup
 |===
 
 
+[[repositories]]
 == Repositorys
 
 Die Methode ListAllNodes steht dem Zugriffstyp Repositories zur Verfügung.
 
 
 
+[[volumes]]
 == Volumes
 
 Die folgenden Methoden stehen für den Zugriffstyp Volumes zur Verfügung:
@@ -997,6 +1009,7 @@ UpdateBulkVolumeStatus
 |===
 
 
+[[write]]
 == Schreiben
 
 Für den Schreibzugriffstyp stehen folgende Methoden zur Verfügung:
@@ -1108,3 +1121,5 @@ GetAsyncResult
 RemoveDrives
 
 |===
+.Verwandte Informationen
+link:../storage/concept_system_manage_manage_cluster_administrator_users.html#view-cluster-admin-details["Informationen zu den in der Element Benutzeroberfläche verfügbaren Zugriffstypen"]

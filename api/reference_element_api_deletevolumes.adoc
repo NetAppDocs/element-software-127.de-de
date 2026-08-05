@@ -21,6 +21,7 @@ Wenn die von Ihnen gelöschten Volumes mit einem Volume gekoppelt werden, wird d
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über die folgenden Eingabeparameter.
@@ -72,6 +73,7 @@ Siehe Hinweis.
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode verfügt über die folgenden Rückgabewerte:
@@ -101,6 +103,7 @@ JSON Objekt
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -117,6 +120,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -160,6 +164,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

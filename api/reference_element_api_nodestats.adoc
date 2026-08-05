@@ -15,6 +15,7 @@ Das Objekt nodeStats enthält allgemeine Aktivitätsmessungen für einen Knoten.
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -186,6 +187,7 @@ Ganzzahl
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:reference_element_api_getnodestats.adoc[GetNodeStats]

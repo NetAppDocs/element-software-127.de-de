@@ -15,6 +15,7 @@ Das VolumePair Objekt enthält Informationen zu einem Volume, das mit einem ande
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -92,6 +93,7 @@ Zeichenfolge
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:reference_element_api_listactivepairedvolumes.adoc[ListeActivePairedVolumes]

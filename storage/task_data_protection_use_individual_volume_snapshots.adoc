@@ -15,6 +15,7 @@ Ein Volume Snapshot ist eine zeitpunktgenaue Kopie eines Volumes. Sie können ei
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:task_data_protection_create_a_volume_snapshot.adoc[Erstellen eines Volume-Snapshots]

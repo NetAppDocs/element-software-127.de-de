@@ -15,6 +15,7 @@ Sie können die Methode verwenden `RekeySoftwareEncryptionAtRestMasterKey`, um d
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über die folgenden Eingabeparameter. Wenn der `keyManagementType` Parameter nicht angegeben wird, erfolgt die Rekey-Operation unter Verwendung der vorhandenen Key-Management-Konfiguration. Wenn der `keyManagementType` angegeben wird und der Key Provider extern ist, muss der `keyProviderID` Parameter ebenfalls verwendet werden.
@@ -33,6 +34,7 @@ Diese Methode verfügt über die folgenden Eingabeparameter. Wenn der `keyManage
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode verfügt über die folgenden Rückgabewerte:
@@ -46,6 +48,7 @@ Diese Methode verfügt über die folgenden Rückgabewerte:
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -62,6 +65,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -74,6 +78,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 12,3

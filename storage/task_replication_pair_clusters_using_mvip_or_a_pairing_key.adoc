@@ -23,6 +23,7 @@ Sie können ein Quell- und Zielcluster mithilfe des MVIP des Zielclusters koppel
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:task_replication_pair_cluster_using_mvip.adoc[Koppeln Sie Cluster mit MVIP]

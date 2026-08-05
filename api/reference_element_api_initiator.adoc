@@ -15,6 +15,7 @@ Das Initiatorobjekt enthält Informationen über einen iSCSI- oder Fibre Channel
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -114,6 +115,7 @@ Integer-Array
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_listinitiators.adoc[ListenInitiatoren]

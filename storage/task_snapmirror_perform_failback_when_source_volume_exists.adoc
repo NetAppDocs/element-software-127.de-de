@@ -35,6 +35,7 @@ NOTE: Das ursprüngliche primäre Volume kann nun gemountet werden, um die Produ
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:concept_snapmirror_failback_scenarios.adoc[SnapMirror Failback-Szenarien]

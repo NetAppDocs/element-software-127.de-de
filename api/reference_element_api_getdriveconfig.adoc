@@ -15,12 +15,14 @@ Mit dieser Methode können `GetDriveConfig` Sie Laufwerksinformationen für die 
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode hat keine Eingabeparameter.
 
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -39,6 +41,7 @@ xref:reference_element_api_drive.adoc[Laufwerk]
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -53,6 +56,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Die Antworten für diese Methode sind dem folgenden Beispiel ähnlich. Aufgrund der Länge enthält die Antwort nur Informationen für ein Laufwerk eines Storage-Node.

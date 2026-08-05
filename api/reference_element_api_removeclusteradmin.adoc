@@ -15,6 +15,7 @@ Sie können die Methode verwenden `RemoveClusterAdmin`, um einen Clusteradminist
 
 
 
+[[parameter]]
 == Parameter
 
 Wenn ein IdP-Cluster-Administrator entfernt wird, bei dem authentifizierte Sitzungen zu einem IdP-IdP eines Drittanbieters verknüpft sind, werden diese Sitzungen entweder aberkannt oder es besteht möglicherweise ein Verlust von Zugriffsrechten innerhalb der aktuellen Sitzung. Der Verlust von Zugriffsrechten hängt davon ab, ob der entfernte IdP-Cluster-Administrator einem von mehreren IdP-Cluster-Administratoren aus den SAML-Attributen eines bestimmten Benutzers zugeordnet hat. Die verbleibende Gruppe passender IdP-Cluster-Administratoren führt zu einer reduzierten Anzahl von aggregierten Zugriffsrechten. Andere Cluster-Admin-Benutzertypen werden abgemeldet, wenn ihre Cluster-Administratoren entfernt werden.
@@ -39,12 +40,14 @@ Ja.
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode hat keine Rückgabewerte.
 
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -61,6 +64,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -74,6 +78,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

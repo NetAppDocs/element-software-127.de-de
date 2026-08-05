@@ -15,6 +15,7 @@ Mit dieser Methode können `GetIpmiConfig` Sie Informationen zu Hardwaresensoren
 
 
 
+[[parameter]]
 == Parameter
 
 Diese Methode verfügt über den folgenden Eingabeparameter:
@@ -37,6 +38,7 @@ Zeichenfolge
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode verfügt über die folgenden Rückgabewerte:
@@ -64,6 +66,7 @@ Zeichenfolge
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -80,6 +83,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -238,6 +242,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

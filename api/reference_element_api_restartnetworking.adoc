@@ -19,6 +19,7 @@ Mit dieser Methode werden alle Netzwerkdienste auf einem Node neu gestartet, was
 
 
 
+[[parameter]]
 == Parameter
 
 Diese Methode verfügt über den folgenden Eingabeparameter:
@@ -41,12 +42,14 @@ Ja.
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode hat keine Rückgabewerte.
 
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -63,6 +66,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -75,6 +79,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

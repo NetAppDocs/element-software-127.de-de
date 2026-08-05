@@ -25,6 +25,7 @@ summary: Über die NetApp Element Software-UI lassen sich Benachrichtigungen üb
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:reference_monitor_cluster_fault_codes.adoc[Cluster-Fehlercodes]

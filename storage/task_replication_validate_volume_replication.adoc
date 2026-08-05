@@ -19,6 +19,7 @@ Nach der Replizierung eines Volumes sollten Sie sicherstellen, dass die Quell- u
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_replication_volume_pairing_warnings.adoc[Warnungen zum Volume-Pairing]

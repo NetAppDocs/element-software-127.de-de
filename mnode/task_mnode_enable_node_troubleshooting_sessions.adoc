@@ -48,6 +48,7 @@ WARNING: Sofern nicht vom NetApp Support beraten, werden Änderungen an diesem S
 
 
 
+[[troubleshoot-a-cluster-node]]
 == Fehlerbehebung für einen Cluster-Node
 
 Sie können grundlegende Fehlerbehebungsmaßnahmen mit dem sfReadonly Systemkonto durchführen:
@@ -116,6 +117,7 @@ NOTE: SSH bleibt auf dem Management-Node aktiviert, wenn Sie ihn nicht deaktivie
 
 
 
+[[troubleshoot-a-cluster-node-with-netapp-support]]
 == Fehlerbehebung für einen Cluster Node mit NetApp Support
 
 NetApp Support kann bei einer Systemkonto eine erweiterte Fehlerbehebung durchführen, sodass Techniker eine umfassendere Elementdiagnose durchführen können.
@@ -213,6 +215,7 @@ NOTE: SSH bleibt auf dem Management-Node aktiviert, wenn Sie ihn nicht deaktivie
 
 
 
+[[troubleshoot-a-node-that-is-not-part-of-cluster]]
 == Fehlerbehebung für einen Node, der nicht zum Cluster gehört
 
 Sie können grundlegende Fehlerbehebung für einen Node ausführen, der noch nicht zu einem Cluster hinzugefügt wurde. Sie können das sfReadonly System-Konto zu diesem Zweck mit oder ohne Hilfe von NetApp Unterstützung verwenden. Wenn ein Management-Node eingerichtet wurde, können Sie ihn für SSH verwenden und das angegebene Skript für diese Aufgabe ausführen.

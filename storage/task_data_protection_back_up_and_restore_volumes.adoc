@@ -17,6 +17,7 @@ Wenn Sie Volumes aus OpenStack Swift oder Amazon S3 wiederherstellen, benötigen
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:task_data_protection_back_up_volume_to_amazon_s3.adoc[Volumes werden in einem Amazon S3-Objektspeicher gesichert]

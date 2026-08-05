@@ -17,6 +17,7 @@ Wenn ein neu hinzugefügter Node mehr als 50 % der gesamten Cluster-Kapazität b
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:task_system_manage_nodes_adding_a_node_to_a_cluster.adoc[Fügen Sie einem Cluster einen Node hinzu]

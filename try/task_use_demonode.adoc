@@ -15,6 +15,7 @@ https://mysupport.netapp.com/site/tools/tool-eula/element-demonode/download["Ele
 
 
 
+[[supported-functionality]]
 == Unterstützte Funktionen:
 
 Element Demo Node ist nur zur Verwendung als Demo- und Entwicklungstool gedacht. Beachten Sie die folgenden Funktionseinschränkungen, bevor Sie den Demo-Node verwenden:
@@ -40,6 +41,7 @@ NOTE: Es gelten alle anderen Einschränkungen für die Element Software. Weitere
 
 
 
+[[vm-requirements]]
 == VM-Anforderungen
 
 * 240 GB Gesamtkapazität (Größe und Anzahl der virtuellen Laufwerke für die VM können nicht geändert werden. Jeder zusätzliche Storage, der über den Hypervisor bereitgestellt wird, wird vom Gastbetriebssystem ignoriert.)
@@ -53,6 +55,7 @@ NOTE: Es gelten alle anderen Einschränkungen für die Element Software. Weitere
 
 
 
+[[host-requirements]]
 == Host-Anforderungen erfüllt
 
 * ESXI 6.0 oder 6.5 für Element Demo Node 11.7 VM
@@ -63,12 +66,14 @@ NOTE: Es gelten alle anderen Einschränkungen für die Element Software. Weitere
 
 
 
+[[download-element-demo-node]]
 == Laden Sie Den Element Demo-Node Herunter
 
 Die Element Demo-Knoten-Software ist ein Satz von VMware-Dateien, die in einer .ova-Datei verpackt wurden.
 
 
 
+[[install-element-demo-node-on-vmware-esxi]]
 == Installieren Sie Element Demo Node auf VMware ESXi
 
 Beim Installieren des Element Demo Node auf VMware ESXi werden die folgenden Aufgaben ausgeführt:
@@ -80,12 +85,14 @@ Beim Installieren des Element Demo Node auf VMware ESXi werden die folgenden Auf
 
 
 
+[[configure-network-interfaces]]
 === Konfigurieren Sie die Netzwerkschnittstellen
 
 Für den Element Demo-Node sind zwei separate Netzwerke virtueller Maschinen erforderlich. Eine ist für Storage-Traffic und die andere für Management-Traffic. Sie sollten das Speichernetzwerk so konfigurieren, dass Jumbo Frames unterstützt werden.
 
 
 
+[[register-the-demo-node-on-an-esxi-server]]
 === Registrieren des Demo-Knotens auf einem ESXi-Server
 
 Um Element Demo Node auf einem ESXi-Server zu registrieren, sollten Sie den Demo-Knoten .ova-Datei mit dem vSphere-Client bereitstellen.
@@ -111,6 +118,7 @@ NOTE: Die Implementierung der Demo-Nodes kann einige Minuten in Anspruch nehmen.
 
 
 
+[[start-the-demo-node-on-an-esxi-server]]
 === Starten Sie den Demo-Knoten auf einem ESXi-Server
 
 Starten Sie die Demo-Node-VM, um auf Element über die VMware ESXi Konsole zuzugreifen.
@@ -125,12 +133,14 @@ Starten Sie die Demo-Node-VM, um auf Element über die VMware ESXi Konsole zuzug
 
 
 
+[[how-to-get-support]]
 == Support-Hilfe
 
 Element Demo Node ist für freiwillige Helfer verfügbar. Um Unterstützung zu erhalten, senden Sie Ihre Fragen an https://community.netapp.com/t5/Simulator-Discussions/bd-p/simulator-discussions["Element Demo Node Forum"^] .
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://mysupport.netapp.com/site/tools/tool-eula/element-demonode/download["Download-Seite für Element Demo-Node (Anmeldung erforderlich)"^]

@@ -15,12 +15,14 @@ Mit dieser Methode können `GetIpmiInfo` Sie eine detaillierte Berichterstellung
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode hat keine Eingabeparameter.
 
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -39,6 +41,7 @@ JSON-Objekt-Array
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -53,6 +56,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Aufgrund der Länge der zurückgegebenen Antwort für diese API-Methode wurden Teile der Antwort absichtlich aus diesem Dokument entfernt. Enthalten sind die Bestandteile der Hardwareinformationen, die das System überwacht, um sicherzustellen, dass der Knoten mit optimaler Leistung ausgeführt wird.
@@ -187,6 +191,7 @@ Aufgrund der Länge der zurückgegebenen Antwort für diese API-Methode wurden T
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

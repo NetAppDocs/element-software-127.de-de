@@ -15,6 +15,7 @@ Die Element Web-Benutzeroberfläche verwendet `DeleteSnapMirrorEndpoints`, um ei
 
 
 
+[[parameter]]
 == Parameter
 
 Diese Methode verfügt über den folgenden Eingabeparameter:
@@ -37,12 +38,14 @@ Ja.
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode hat keine Rückgabewerte.
 
 
 
+[[new-since-version]]
 == Neu seit Version
 
 10,0

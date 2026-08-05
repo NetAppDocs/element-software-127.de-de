@@ -15,6 +15,7 @@ Mit dieser Methode kann `DisableMaintenanceMode` ein Storage Node aus dem Wartun
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über die folgenden Eingabeparameter:
@@ -37,6 +38,7 @@ Ja.
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode verfügt über die folgenden Rückgabewerte:
@@ -91,6 +93,7 @@ Wartungsmodus (String)
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -107,6 +110,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -125,12 +129,14 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 12,2
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 http://docs.netapp.com/us-en/hci/docs/concept_hci_storage_maintenance_mode.html["Konzepte des NetApp HCI Storage-Wartungsmodus"^]

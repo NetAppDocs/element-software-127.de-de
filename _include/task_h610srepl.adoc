@@ -12,6 +12,7 @@ TIP: Die Begriffe „Node“ und „Chassis“ werden bei H610S gemeinsam verwen
 
 
 
+[[best-practices-for-adding-and-removing-drives]]
 == Best Practices zum Hinzufügen und Entfernen von Laufwerken
 
 Beim Hinzufügen von Laufwerken zum Cluster sollten Sie folgende Best Practices beachten:
@@ -70,6 +71,7 @@ NOTE: Wenn der Switch die Kabel nicht erkennt, lesen Sie die Dokumentation des S
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

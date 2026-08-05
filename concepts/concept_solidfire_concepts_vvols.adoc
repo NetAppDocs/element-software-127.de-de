@@ -18,12 +18,14 @@ VSphere Virtual Volumes ist ein Storage-Paradigma für VMware, das einen Großte
 
 
 
+[[bindings]]
 == Bindungen
 
 Der NetApp Element Cluster wählt einen optimalen Protokollendpunkt, erstellt eine Bindung, die den ESXi Host und das virtuelle Volume dem Protokollendpunkt zugeordnet und die Bindung an den ESXi Host zurückgibt. Nach der Bindung kann der ESXi Host I/O-Vorgänge mit dem gebundenen virtuellen Volume ausführen.
 
 
 
+[[protocol-endpoints]]
 == Protokollendpunkte
 
 VMware ESXi Hosts verwenden logische I/O-Proxys – als Protokollendpunkte bezeichnet –, um mit virtuellen Volumes zu kommunizieren. ESXi Hosts binden virtuelle Volumes an Protokollendpunkte, um I/O-Vorgänge durchzuführen. Wenn eine virtuelle Maschine auf dem Host einen I/O-Vorgang durchführt, leitet der zugehörige Protokollendpunkt den I/O-Vorgang an das virtuelle Volume, mit dem sie gekoppelt wird.
@@ -34,6 +36,7 @@ ISCSI ist das einzige unterstützte Protokoll für die NetApp Element-Software. 
 
 
 
+[[storage-containers]]
 == Storage-Container
 
 Storage-Container sind logische Konstrukte, die NetApp Element-Konten zugewiesen werden und für die Berichterstellung und Ressourcenzuweisung verwendet werden. Sie bilden die Brutto-Storage-Kapazität oder aggregierte Storage-Funktionen, die das Storage-System virtuellen Volumes zur Verfügung stellen kann. Ein VVol Datastore, der in vSphere erstellt wird, wird einem einzelnen Storage-Container zugeordnet. Ein einzelner Storage-Container verfügt standardmäßig über alle verfügbaren Ressourcen des NetApp Element-Clusters. Falls mehr granulare Governance für Mandantenfähigkeit erforderlich ist, können auch mehrere Storage Container erstellt werden.
@@ -42,6 +45,7 @@ Storage-Container funktionieren wie herkömmliche Konten und können sowohl virt
 
 
 
+[[vasa-provider]]
 == VASA-Provider
 
 Um vSphere auf die vVol Funktion im NetApp Element Cluster aufmerksam zu machen, muss der vSphere Administrator den NetApp Element VASA Provider mit vCenter registrieren. Der VASA Provider ist der Out-of-Band-Kontrollpfad zwischen vSphere und dem Element Cluster. Er ist verantwortlich für die Ausführung von Anfragen im Element Cluster im Auftrag von vSphere, z. B. die Erstellung von VMs, die Bereitstellung von VMs für vSphere und die Werbung für Storage-Funktionen für vSphere.

@@ -15,6 +15,7 @@ Das Volume-Objekt enthält Konfigurationsinformationen über nicht gepaarte oder
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -293,6 +294,7 @@ UUID
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:reference_element_api_listactivevolumes.adoc[ListeActiveVolumes]

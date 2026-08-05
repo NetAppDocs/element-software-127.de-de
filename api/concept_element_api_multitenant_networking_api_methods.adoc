@@ -17,6 +17,7 @@ Verbindungen zum Storage-Cluster sind im Netzwerk-Stack durch VLAN-Tagging getre
 
 
 
+[[prerequisites-for-setting-up-a-multitenant-virtual-network]]
 == Voraussetzungen für die Einrichtung eines mandantenfähigen virtuellen Netzwerks
 
 * Sie müssen den Block der Client-Netzwerk-IP-Adressen identifiziert haben, die den virtuellen Netzwerken auf den Storage-Nodes zugewiesen werden sollen.
@@ -25,6 +26,7 @@ Verbindungen zum Storage-Cluster sind im Netzwerk-Stack durch VLAN-Tagging getre
 
 
 
+[[virtual-networking-order-of-operations]]
 == Reihenfolge der Vorgänge virtueller Netzwerke
 
 . Verwenden Sie die AddVirtualNetwork-Methode, um die IP-Adressen, die Sie eingeben, in Massen bereitzustellen.
@@ -42,6 +44,7 @@ Nachdem Sie ein virtuelles Netzwerk hinzugefügt haben, führt der Cluster autom
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:concept_element_api_virtual_network_naming_conventions.adoc[Namenskonventionen für virtuelle Netzwerke]

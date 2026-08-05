@@ -15,12 +15,14 @@ Sie können die Methode verwenden `ListClusterPairs`, um alle Cluster aufzuliste
 
 
 
+[[parameter]]
 == Parameter
 
 Diese Methode hat keinen Eingabeparameter:
 
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -39,6 +41,7 @@ xref:reference_element_api_clusterpair.adoc[Cluster-Paar] Array
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -54,6 +57,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -89,6 +93,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

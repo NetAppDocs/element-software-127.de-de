@@ -28,6 +28,7 @@ NOTE: Standardmäßig ist die Community-Zeichenfolge öffentlich, und das Netzwe
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:task_system_manage_snmp_configure_snmp_traps.adoc[Konfigurieren Sie SNMP-Traps]

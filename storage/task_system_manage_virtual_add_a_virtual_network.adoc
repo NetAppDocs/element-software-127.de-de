@@ -48,6 +48,7 @@ Wenn ein virtuelles Netzwerk hinzugefügt wird, wird für jeden Node eine Schnit
 
 
 
+[[view-virtual-network-details]]
 == Details zum virtuellen Netzwerk anzeigen
 
 .Schritte

@@ -43,6 +43,7 @@ Daten vom letzten Snapshot werden im Rahmen der umgekehrten Resynchronisierung a
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:concept_snapmirror_failback_scenarios.adoc[SnapMirror Failback-Szenarien]

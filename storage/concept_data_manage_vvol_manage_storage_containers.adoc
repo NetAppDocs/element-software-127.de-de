@@ -19,6 +19,7 @@ Pro Cluster werden maximal vier Storage-Container unterstützt. Zur Aktivierung 
 
 
 
+[[create-a-storage-container]]
 == Erstellen eines Storage-Containers
 
 Es können Storage Container in der Element UI erstellt und in vCenter ermittelt werden. Sie müssen mindestens einen Storage-Container erstellen, um mit der Bereitstellung der auf VVol basierenden Virtual Machines zu beginnen.
@@ -48,6 +49,7 @@ NOTE: Da eine NetApp Element-Konto-ID automatisch erstellt und dem Storage-Conta
 
 
 
+[[view-storage-container-details]]
 == Zeigen Sie Details zum Storage-Container an
 
 Auf der Seite Storage Container auf der Registerkarte VVols können Sie Informationen für alle aktiven Storage-Container auf dem Cluster anzeigen.
@@ -67,6 +69,7 @@ Auf der Seite Storage Container auf der Registerkarte VVols können Sie Informat
 
 
 
+[[view-individual-storage-container-details]]
 == Zeigen Sie die Details zu einzelnen Storage-Containern an
 
 Sie können die Storage-Container-Informationen für einen einzelnen Storage-Container anzeigen. Wählen Sie dazu auf der Seite Storage-Container auf der Registerkarte VVols die entsprechende Option aus.
@@ -87,6 +90,7 @@ Sie können die Storage-Container-Informationen für einen einzelnen Storage-Con
 
 
 
+[[edit-a-storage-container]]
 == Bearbeiten eines Speichercontainers
 
 Sie können die CHAP-Authentifizierung für Speichercontainer in der Element-UI ändern.
@@ -104,6 +108,7 @@ TIP: Wenn Sie die Anmeldeinformationen für CHAP-Einstellungen nicht ändern, bl
 
 
 
+[[delete-a-storage-container]]
 == Löschen eines Speichercontainers
 
 Sie können Storage Container von der Element UI löschen.

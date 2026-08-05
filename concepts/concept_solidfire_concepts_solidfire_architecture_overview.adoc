@@ -42,6 +42,7 @@ Sie können das System über die Element Web-UI und andere kompatible Tools verw
 
 
 
+[[common-urls]]
 == Allgemeine URLs
 
 Dies sind die allgemeinen URLs, die Sie mit einem SolidFire All-Flash-Storage-System verwenden:
@@ -70,6 +71,7 @@ Dies sind die allgemeinen URLs, die Sie mit einem SolidFire All-Flash-Storage-Sy
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

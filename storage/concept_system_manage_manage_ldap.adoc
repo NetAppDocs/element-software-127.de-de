@@ -31,6 +31,7 @@ Die Aktivierung von LDAP umfasst die folgenden grundlegenden Schritte, die im De
 
 
 
+[[complete-pre-configuration-steps-for-ldap-support]]
 == Führen Sie die Schritte zur Vorkonfiguration für die LDAP-Unterstützung durch
 
 Bevor Sie die LDAP-Unterstützung in Element aktivieren, sollten Sie einen Windows Active Directory-Server einrichten und weitere Vorkonfigurationsaufgaben durchführen.
@@ -44,6 +45,7 @@ Bevor Sie die LDAP-Unterstützung in Element aktivieren, sollten Sie einen Windo
 
 
 
+[[enable-ldap-authentication-with-the-element-user-interface]]
 == Aktivieren Sie die LDAP-Authentifizierung über die Benutzeroberfläche von Element
 
 Sie können die Integration des Speichersystems mit einem vorhandenen LDAP-Server konfigurieren. Dies ermöglicht LDAP-Administratoren ein zentrales Management des Speichersystemzugriffs für Benutzer.
@@ -94,6 +96,7 @@ Um dies zu testen, melden Sie sich von der Element UI ab und melden Sie sich als
 
 
 
+[[enable-ldap-authentication-with-the-element-api]]
 == Aktivieren Sie die LDAP-Authentifizierung mit der Element API
 
 Sie können die Integration des Speichersystems mit einem vorhandenen LDAP-Server konfigurieren. Dies ermöglicht LDAP-Administratoren ein zentrales Management des Speichersystemzugriffs für Benutzer.
@@ -199,6 +202,8 @@ Um dies zu testen, melden Sie sich von der Element UI ab und melden Sie sich als
 
 
 
+[[view-ldap-details]]
+[[view_ldap_details]]
 == LDAP-Details anzeigen
 
 Zeigen Sie LDAP-Informationen auf der LDAP-Seite auf der Registerkarte Cluster an.
@@ -237,6 +242,7 @@ NOTE: Sie müssen LDAP aktivieren, um diese LDAP-Konfigurationseinstellungen anz
 
 
 
+[[test-the-ldap-configuration]]
 == Testen Sie die LDAP-Konfiguration
 
 Nach dem Konfigurieren von LDAP sollten Sie es entweder mit der Element UI oder mit der Element API-Methode testen `TestLdapAuthentication`.
@@ -331,6 +337,7 @@ Das `userSearchBaseDN` ist kein gültiger Speicherort innerhalb der LDAP-Struktu
 
 
 
+[[disable-ldap]]
 == LDAP deaktivieren
 
 Sie können die LDAP-Integration über die Element-UI deaktivieren.
@@ -345,6 +352,7 @@ Bevor Sie beginnen, sollten Sie alle Konfigurationseinstellungen beachten, da di
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

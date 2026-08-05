@@ -109,6 +109,7 @@ image::psu-install.gif[Zeigt das Netzteil, das im Chassis installiert wird.]
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

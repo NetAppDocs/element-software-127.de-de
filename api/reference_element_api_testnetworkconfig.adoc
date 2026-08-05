@@ -15,6 +15,7 @@ Mit dieser Methode können `TestNetworkConfig` Sie testen, ob die konfigurierten
 
 
 
+[[parameters]]
 == Parameter
 
 Wenn Sie einen Knoten mit der Methode SetNetworkConfig in der UI oder TUI konfigurieren, wird die Konfiguration validiert und gespeichert. Der Test der TestNetworkConfig API verwendet die gespeicherte Konfiguration für die Logik nach der Validierung. Wenn beispielsweise ein Stromausfall oder ein Netzwerkfehler auftritt, können Sie diese API-Methode verwenden, um sicherzustellen, dass ein Node mit der derzeit am meisten gespeicherten Netzwerkkonfiguration ausgeführt wird. Dadurch wird überprüft, dass bei der Konfiguration keine Fehler auftreten und dass die aktuelle Konfiguration verwendet wird.
@@ -25,6 +26,7 @@ Diese Methode hat keine Eingabeparameter.
 
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -43,6 +45,7 @@ JSON Objekt
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -57,6 +60,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example-1]]
 == Antwortbeispiel 1
 
 Wenn keine Fehler erkannt werden, werden keine Antworten zurückgegeben.
@@ -76,6 +80,7 @@ Wenn keine Fehler erkannt werden, werden keine Antworten zurückgegeben.
 ----
 
 
+[[response-example-2]]
 == Antwortbeispiel 2
 
 Beispiel für eine MTU-Übereinstimmung.
@@ -100,6 +105,7 @@ Beispiel für eine MTU-Übereinstimmung.
 ----
 
 
+[[response-example-3]]
 == Antwortbeispiel 3
 
 Beispiel für eine fehlende statische Route.
@@ -124,12 +130,14 @@ Beispiel für eine fehlende statische Route.
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_setnetworkconfig.adoc[SetNetworkConfig]

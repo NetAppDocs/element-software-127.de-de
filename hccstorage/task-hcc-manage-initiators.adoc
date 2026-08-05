@@ -30,6 +30,7 @@ Sie können für CHAP-basierten statt kontenbasierten Zugriff auf Volumes verwen
 
 
 
+[[create-an-initiator]]
 == Erstellen eines Initiators
 
 Sie können iSCSI- oder Fibre Channel-Initiatoren erstellen und diese optional Aliase zuweisen.
@@ -81,6 +82,7 @@ Das akzeptierte Format eines Fibre Channel-Initiators WWPN ist `:Aa:bB:CC:dd:11:
 
 
 
+[[add-initiators-to-a-volume-access-group]]
 == Fügen Sie Initiatoren zu einer Volume-Zugriffsgruppe hinzu
 
 Sie können Initiatoren zu einer Volume-Zugriffsgruppe hinzufügen. Wenn Sie einer Volume-Zugriffsgruppe einen Initiator hinzufügen, ermöglicht der Initiator den Zugriff auf alle Volumes in dieser Volume-Zugriffsgruppe.
@@ -98,6 +100,7 @@ Sie können Initiatoren zu einer Volume-Zugriffsgruppe hinzufügen. Wenn Sie ein
 
 
 
+[[change-an-initiator-alias]]
 == Ändern eines Initiator-Alias
 
 Sie können den Alias eines bestehenden Initiators ändern oder einen Alias hinzufügen, wenn einer noch nicht vorhanden ist.
@@ -115,6 +118,7 @@ Sie können den Alias eines bestehenden Initiators ändern oder einen Alias hinz
 
 
 
+[[delete-initiators]]
 == Löschen Sie Initiatoren
 
 Sie können einen oder mehrere Initiatoren löschen. Wenn Sie einen Initiator löschen, wird dieser vom System aus einer zugehörigen Volume-Zugriffsgruppe entfernt. Verbindungen, die den Initiator verwenden, bleiben gültig, bis die Verbindung zurückgesetzt wird.

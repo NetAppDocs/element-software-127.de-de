@@ -15,6 +15,7 @@ Sie können die Methode verwenden `TestDrives`, um eine Hardwarevalidierung auf 
 
 
 
+[[parameters]]
 == Parameter
 
 Sie können die Methode nur auf Knoten verwenden `TestDrives`, die in einem Cluster nicht „aktiv“ sind.
@@ -55,6 +56,7 @@ Nein
 |===
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -73,6 +75,7 @@ JSON Objekt
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -90,12 +93,14 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Tabelle mit den Testergebnissen für jedes Laufwerk im Node zurück.
 
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

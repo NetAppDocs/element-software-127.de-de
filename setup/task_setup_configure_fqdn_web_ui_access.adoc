@@ -34,6 +34,7 @@ Durch diesen Prozess kann das Cluster eine Anmeldesitzung ordnungsgemäß umleit
 
 
 
+[[configure-fqdn-web-ui-access-using-netapp-hybrid-cloud-control]]
 == Konfigurieren Sie den FQDN-Web-UI-Zugriff mit NetApp Hybrid Cloud Control
 
 .Schritte
@@ -60,6 +61,7 @@ NOTE: Nur verbundene Speichercluster mit dem FQDN-Satz werden im Fensterbereich 
 
 
 
+[[configure-fqdn-web-ui-access-using-the-rest-api]]
 == Konfigurieren Sie den FQDN-Webbenutzerzugriff mithilfe der REST-API
 
 .Schritte
@@ -116,6 +118,7 @@ Beispiel:
 
 
 
+[[remove-fqdn-web-ui-access-using-netapp-hybrid-cloud-control]]
 == Entfernen Sie FQDN Web-UI-Zugriff mit NetApp Hybrid Cloud Control
 
 Mit diesem Verfahren können Sie den FQDN-Webzugriff für den Managementknoten und die Speichercluster entfernen.
@@ -131,6 +134,7 @@ Das Fenster wird geschlossen, und der FQDN wird nicht mehr im Bereich *Fully Qua
 
 
 
+[[remove-fqdn-web-ui-access-using-the-rest-api]]
 == Entfernen Sie den FQDN-Webbenutzerzugriff mithilfe der REST-API
 
 .Schritte
@@ -181,6 +185,7 @@ https://<management_node_IP>/mnode/2/
 
 
 
+[[troubleshooting]]
 == Fehlerbehebung
 
 Wenn FQDNs falsch konfiguriert sind, können Sie Probleme beim Zugriff auf den Managementknoten, einen Speichercluster oder beide haben. Verwenden Sie die folgenden Informationen, um die Fehlerbehebung zu unterstützen.
@@ -212,6 +217,7 @@ Wenn FQDNs falsch konfiguriert sind, können Sie Probleme beim Zugriff auf den M
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

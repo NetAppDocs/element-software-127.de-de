@@ -15,6 +15,7 @@ Sie können die Methode verwenden `GetDriveStats`, um Aktivitätsmessungen auf h
 
 
 
+[[parameter]]
 == Parameter
 
 Diese Methode verfügt über den folgenden Eingabeparameter:
@@ -37,6 +38,7 @@ Ja.
 |===
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -55,6 +57,7 @@ xref:reference_element_api_drivestats.adoc[Fahrstollen]
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -71,6 +74,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example-block-drive]]
 == Beispiel für Antwort (Blocklaufwerk)
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel für ein Blocklaufwerk entspricht:
@@ -103,6 +107,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel für ein Blo
 ----
 
 
+[[response-example-volume-metadata-drive]]
 == Antwortbeispiel (Volume Metadatenlaufwerk)
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel für ein Volume-Metadatenlaufwerk ähnelt:
@@ -136,12 +141,14 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel für ein Vol
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_listdrives.adoc[ListenLaufwerke]

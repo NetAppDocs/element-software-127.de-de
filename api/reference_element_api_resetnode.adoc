@@ -15,6 +15,7 @@ Sie können mit dieser `ResetNode` Methode einen Node auf die Werkseinstellungen
 
 
 
+[[parameters]]
 == Parameter
 
 Die ResetNode-API kann nur für Knoten verwendet werden, die sich im Status „verfügbar“ befinden. Er kann nicht für Nodes verwendet werden, die in einem Cluster „aktiv“ oder sich in einem „Ausstehend“ befinden.
@@ -69,12 +70,14 @@ Nein
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode hat keine Rückgabewerte.
 
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -92,6 +95,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -150,6 +154,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

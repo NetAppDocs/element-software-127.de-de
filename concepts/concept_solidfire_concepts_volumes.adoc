@@ -17,6 +17,7 @@ Element Storage ermöglicht Ihnen das Erstellen, Anzeigen, Bearbeiten, Löschen,
 
 
 
+[[persistent-volumes]]
 == Persistente Volumes
 
 Mithilfe persistenter Volumes können Management-Node-Konfigurationsdaten nicht lokal mit einer VM in einem bestimmten Storage-Cluster gespeichert werden, damit Daten auch bei Verlust oder Entfernung von Management-Nodes erhalten bleiben. Persistente Volumes sind eine optionale, jedoch empfohlene Management-Node-Konfiguration.

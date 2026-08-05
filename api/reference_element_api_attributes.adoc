@@ -17,6 +17,7 @@ Für codierte Attributobjekte gibt es eine Begrenzung von 1000 Byte.
 
 
 
+[[object-member]]
 == Objektmitglied
 
 Dieses Objekt enthält das folgende Mitglied:
@@ -35,6 +36,7 @@ JSON Objekt
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Das folgende Anforderungsbeispiel verwendet die AddClusterAdmin-Methode:

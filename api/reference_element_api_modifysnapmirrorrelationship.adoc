@@ -15,6 +15,7 @@ Mit können `ModifySnapMirrorRelationship` Sie die Intervalle ändern, in denen 
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über die folgenden Eingabeparameter:
@@ -91,6 +92,7 @@ Ja.
 |===
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -111,6 +113,7 @@ xref:reference_element_api_snapmirrorrelationship.adoc[SnapMirror Beziehung]
 |===
 
 
+[[new-since-version]]
 == Neu seit Version
 
 10,1

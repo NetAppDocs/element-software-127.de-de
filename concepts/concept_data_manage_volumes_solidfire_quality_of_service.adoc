@@ -18,6 +18,7 @@ NOTE: SolidFire Active IQ verfügt über eine Seite mit QoS-Empfehlungen zur opt
 
 
 
+[[quality-of-service-parameters]]
 == Parameter für die Servicequalität
 
 IOPS-Parameter werden folgendermaßen definiert:
@@ -53,6 +54,7 @@ Beispiel: QoS-Parametereinstellungen für 100 Min IOPS, 1000 Max IOPS und 1500 B
 
 
 
+[[qos-value-limits]]
 == QoS-Wertbegrenzungen
 
 Hier sind die möglichen Mindest- und Höchstwerte für QoS.
@@ -74,6 +76,7 @@ Hier sind die möglichen Mindest- und Höchstwerte für QoS.
 
 
 
+[[qos-performance]]
 == QoS-Performance
 
 Die QoS-Performance-Kurve zeigt die Beziehung zwischen Blockgröße und dem Prozentsatz der IOPS.
@@ -88,6 +91,7 @@ Wenn Blockgröße beispielsweise 4 kb und eine Bandbreite 4000 kbit/s beträgt, 
 
 
 
+[[qos-policies]]
 == QoS-Richtlinien (QoS
 
 Mit einer QoS-Richtlinie können Sie standardisierte Quality-of-Service-Einstellungen erstellen und speichern, die auf viele Volumes angewendet werden können.
@@ -101,6 +105,7 @@ NOTE: Der ausgewählte Cluster muss zur Verwendung von QoS-Richtlinien Element 1
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

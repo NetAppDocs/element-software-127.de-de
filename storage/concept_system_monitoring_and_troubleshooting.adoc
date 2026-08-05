@@ -29,6 +29,7 @@ Sie müssen das System zu Diagnosezwecken überwachen und Informationen zu Perfo
 
 
 
+[[for-more-information]]
 == Finden Sie weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

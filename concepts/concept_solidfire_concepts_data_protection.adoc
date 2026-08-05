@@ -26,6 +26,7 @@ Element Storage-Datensicherung umfasst folgende Konzepte:
 
 
 
+[[remote-replication-types]]
 == Typen der Remote-Replizierung
 
 Die Remote-Replikation von Daten kann folgende Formen annehmen:
@@ -39,6 +40,7 @@ Weitere Informationen finden Sie unter  https://www.netapp.com/pdf.html?item=/me
 
 
 
+[[synchronous-and-asynchronous-replication-between-clusters]]
 === Synchrone und asynchrone Replizierung zwischen Clustern
 
 Für Cluster mit NetApp Element Software ermöglicht Echtzeitreplizierung die schnelle Erstellung von Remote-Kopien von Volume-Daten.
@@ -73,6 +75,7 @@ Asynchrone Replizierung eignet sich für die folgenden Situationen:
 
 
 
+[[snapshot-only-replication]]
 === Reine Snapshot Replizierung
 
 Bei der Datensicherung nur mit Snapshots werden geänderte Daten zu einem bestimmten Zeitpunkt in ein Remote-Cluster repliziert. Es werden nur die Snapshots repliziert, die auf dem Quellcluster erstellt wurden. Aktive Schreibvorgänge vom Quell-Volume sind nicht.
@@ -83,6 +86,7 @@ Die Snapshot Replizierung hat keine Auswirkungen auf die asynchrone oder synchro
 
 
 
+[[replication-between-element-and-ontap-clusters-using-snapmirror]]
 === Replizierung zwischen Element und ONTAP Clustern mit SnapMirror
 
 Mit der NetApp SnapMirror Technologie können Snapshots repliziert werden, die mit NetApp Element Software für Disaster Recovery-Zwecke in ONTAP erstellt wurden. In einer SnapMirror Beziehung stellt Element einen Endpunkt dar, und ONTAP ist der andere.
@@ -109,6 +113,7 @@ Weitere Informationen finden Sie unter link:../storage/element-replication-index
 
 
 
+[[volume-snapshots-for-data-protection]]
 == Volume Snapshots zur Datensicherung
 
 Ein Volume Snapshot ist eine zeitpunktgenaue Kopie eines Volumes, mit der Sie später ein Volume auf diesen speziellen Zeitpunkt wiederherstellen können.
@@ -123,6 +128,7 @@ Sie können einen Snapshot eines einzelnen Volumes oder mehrerer zur Datensicher
 
 
 
+[[volume-clones]]
 == Volume-Klone
 
 Ein Klon eines einzelnen oder mehrerer Volumes ist eine zeitpunktgenaue Kopie der Daten. Wenn Sie ein Volume klonen, erstellt das System einen Snapshot des Volume und erstellt dann eine Kopie der Daten, auf die der Snapshot verweist.
@@ -133,6 +139,7 @@ Das Cluster unterstützt bis zu zwei aktuell laufende Klonanforderungen pro Volu
 
 
 
+[[backup-and-restore-process-overview-for-element-storage]]
 == Übersicht über Backup- und Restore-Prozesse für Element Storage
 
 Backups und Restores von Volumes mit anderen SolidFire Storage-Systemen sowie in sekundären Objektspeichern mit Amazon S3 oder OpenStack Swift möglich.
@@ -148,6 +155,7 @@ Wenn Sie Volumes aus OpenStack Swift oder Amazon S3 wiederherstellen, benötigen
 
 
 
+[[protection-domains]]
 == Sicherungsdomänen
 
 Eine Protection Domain ist ein Knoten oder eine Gruppe von Knoten, die so gruppiert sind, dass ein Teil oder sogar alle Knoten ausfallen könnten, ohne dass die Datenverfügbarkeit beeinträchtigt wird. Protection-Domänen ermöglichen es einem Storage-Cluster, automatisch den Verlust eines Chassis (Chassis-Affinität) oder einer gesamten Domäne (Chassis-Gruppe) zu heilen.
@@ -171,6 +179,7 @@ Wenn Sie ein neues Cluster erstellen und Storage-Nodes verwenden, die sich in ei
 
 
 
+[[custompdcustom-protection-domains]]
 == [[Custom_pd]]Benutzerdefinierte Schutzdomänen
 
 Sie können ein benutzerdefiniertes Schutz-Domain-Layout definieren, das Ihrem spezifischen Gehäuse- und Node-Layout entspricht und wo jeder Knoten mit einer und nur einer benutzerdefinierten Schutzdomäne verknüpft ist. Standardmäßig ist jeder Knoten derselben benutzerdefinierten Standard-Schutzdomäne zugewiesen.
@@ -198,6 +207,7 @@ Sie können die Element-Benutzeroberfläche verwendenlink:../storage/task_data_p
 
 
 
+[[double-helix-high-availability]]
 == Hochverfügbarkeit mit Double Helix
 
 Die Double Helix Datensicherung ist eine Replizierungsmethode, die mindestens zwei redundante Datenkopien auf alle Laufwerke innerhalb eines Systems verteilt. Der Ansatz „RAID-less“ ermöglicht es einem System, mehrere gleichzeitige Ausfälle auf allen Ebenen des Storage-Systems zu absorbieren und schnell zu reparieren.

@@ -17,6 +17,7 @@ Die drei Anforderungsendpunkte in der API sind wie folgt gekennzeichnet:
 
 
 
+[[cluster-api-methods]]
 == Cluster-API-Methoden
 
 Der HTTPS-Endpunkt für API-Anforderungen im gesamten Speicher-Cluster ist `+https://<mvip>/json-rpc/<api-version>+`, wobei:
@@ -27,6 +28,7 @@ Der HTTPS-Endpunkt für API-Anforderungen im gesamten Speicher-Cluster ist `+htt
 
 
 
+[[cluster-creation-and-bootstrap-api-methods]]
 == API-Methoden für die Cluster-Erstellung und das Bootstrap
 
 Der HTTPS-Endpunkt für die Erstellung eines Storage-Clusters und den Zugriff auf Bootstrap-API-Anforderungen ist `+https://<nodeIP>/json-rpc/<api-version>+`, wo:
@@ -37,6 +39,7 @@ Der HTTPS-Endpunkt für die Erstellung eines Storage-Clusters und den Zugriff au
 
 
 
+[[per-node-api-methods]]
 == API-Methoden pro Node
 
 Der HTTPS-Endpunkt für API-Anforderungen einzelner Storage-Nodes ist `+https://<nodeIP>:442/json-rpc/<api-version>+`, wo:
@@ -47,6 +50,7 @@ Der HTTPS-Endpunkt für API-Anforderungen einzelner Storage-Nodes ist `+https://
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

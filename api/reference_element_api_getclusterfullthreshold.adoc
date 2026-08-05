@@ -18,12 +18,14 @@ NOTE: Wenn ein Cluster die Error-Phase der Block-Cluster-Fülle erreicht, werden
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode hat keine Eingabeparameter.
 
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode verfügt über die folgenden Rückgabewerte:
@@ -244,6 +246,7 @@ Ganzzahl
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -258,6 +261,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -289,12 +293,14 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_modifyclusterfullthreshold.adoc[ModifyClusterFullThreshold]

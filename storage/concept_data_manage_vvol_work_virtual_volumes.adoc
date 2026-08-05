@@ -27,6 +27,7 @@ NOTE: VASA-Unterstützung für mehrere vCenters steht als Upgrade-Patch zur Verf
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:task_data_manage_vvol_enable_virtual_volumes.adoc[Aktivierung virtueller Volumes]

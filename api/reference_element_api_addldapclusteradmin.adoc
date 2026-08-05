@@ -15,6 +15,7 @@ Sie können den verwenden `AddLdapClusterAdmin`, um einen neuen LDAP-Clusteradmi
 
 
 
+[[parameters]]
 == Parameter
 
 Mit dieser Methode können Sie auch eine in Active Directory® definierte LDAP-Gruppe hinzufügen. Die Zugriffsebene, die der Gruppe zugewiesen wird, wird an die einzelnen Benutzer in der LDAP-Gruppe übergeben.
@@ -78,12 +79,14 @@ Ja.
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode hat keine Rückgabewerte.
 
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -101,6 +104,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -114,12 +118,14 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_app_b_access_control.adoc[Zugriffssteuerung]

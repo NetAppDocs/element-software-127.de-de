@@ -43,6 +43,7 @@ Sie können einen Snapshot eines aktiven Volumes erstellen, um das Volume Image 
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:task_data_protection_schedule_a_snapshot_task.adoc[Planen Sie einen Snapshot]

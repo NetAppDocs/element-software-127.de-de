@@ -33,7 +33,7 @@ Erfahren Sie, wie Sie ein Storage-System für Ihre Umgebung einrichten.
 
 
 ** xref:task_setup_determine_which_solidfire_components_to_install.adoc[Ermitteln der zu installierenden SolidFire-Komponenten]
-** xref:/task_setup_gh_redirect_set_up_a_management_node.adoc[Richten Sie einen Management-Node ein]
+** xref:task_setup_gh_redirect_set_up_a_management_node.adoc[Richten Sie einen Management-Node ein]
 ** xref:concept_setup_whats_next.adoc[Was kommt als Nächstes?]
 
 
@@ -41,6 +41,7 @@ Erfahren Sie, wie Sie ein Storage-System für Ihre Umgebung einrichten.
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://www.netapp.com/data-storage/solidfire/["SolidFire All-Flash-Storage im Überblick"^]

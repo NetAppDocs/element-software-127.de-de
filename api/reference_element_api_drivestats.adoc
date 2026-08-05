@@ -15,6 +15,7 @@ Das Objekt driveStats enthält übergeordnete Aktivitätsmessungen für eine ein
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -249,6 +250,7 @@ Ganzzahl
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_getdrivestats.adoc[GetDriveStats]

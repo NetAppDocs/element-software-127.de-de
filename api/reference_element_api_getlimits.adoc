@@ -18,18 +18,21 @@ NOTE: Die `GetLimits` Methode gibt die Grenzwerte für die aktuelle Softwarevers
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode hat keine Eingabeparameter.
 
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode gibt ein JSON-Objekt mit Name-Wert-Paaren zurück, die die API-Grenzwerte enthalten.
 
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -43,6 +46,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -118,6 +122,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

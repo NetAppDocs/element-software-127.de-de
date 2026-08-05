@@ -25,6 +25,7 @@ Die QoS-Richtlinie, die Sie als Massenware anwenden möchten, muss vorhanden sei
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:concept_data_manage_volumes_quality_of_service_policies.adoc[Quality of Service-Richtlinien]

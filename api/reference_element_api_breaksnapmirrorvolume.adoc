@@ -15,6 +15,7 @@ Die Element Web-UI verwendet diese `BreakSnapMirrorVolume` Methode, um die SnapM
 
 
 
+[[parameter]]
 == Parameter
 
 Diese Methode verfügt über den folgenden Eingabeparameter:
@@ -87,18 +88,21 @@ Nein
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode hat keine Rückgabewerte.
 
 
 
+[[new-since-version]]
 == Neu seit Version
 
 10,0
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_breaksnapmirrorrelationship.adoc[BreakSnapMirrorBeziehung]

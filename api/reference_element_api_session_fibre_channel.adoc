@@ -15,6 +15,7 @@ Das Sitzungsobjekt enthält Informationen zu jeder Fibre-Channel-Sitzung, die f�
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -85,6 +86,7 @@ Ganzzahl
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_listfibrechannelsessions.adoc[ListFiberChannelSessions]

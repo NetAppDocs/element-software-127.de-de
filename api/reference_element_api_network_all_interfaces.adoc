@@ -15,6 +15,7 @@ Das Netzwerk-Objekt (alle Schnittstellen) sammelt Informationen über die Konfig
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -62,6 +63,7 @@ xref:reference_element_api_network_local_interfaces.adoc[Netzwerk (lokale Schnit
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:reference_element_api_getconfig.adoc[Getconfig]

@@ -25,6 +25,7 @@ Das Volume, das Sie ändern möchten, sollte einer QoS-Richtlinie zugewiesen wer
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:task_data_manage_volumes_deleting_a_qos_policy.adoc[Löschen einer QoS-Richtlinie]

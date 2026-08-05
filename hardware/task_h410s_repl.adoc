@@ -39,6 +39,7 @@ Hier finden Sie eine grobe Übersicht über die Schritte:
 
 
 
+[[prepare-to-replace-the-node]]
 == Bereiten Sie den Austausch des Node vor
 
 Sie sollten den fehlerhaften Storage-Node in der NetApp Element-Software-UI ordnungsgemäß aus dem Cluster entfernen, bevor Sie den Ersatz-Node installieren. Dies ist möglich, ohne dass es zu einer Serviceunterbrechung kommt. Sie sollten die Seriennummer des fehlerhaften Storage Node von der Element UI erhalten und mit der Seriennummer auf dem Aufkleber auf der Rückseite des Node übereinstimmen.
@@ -81,6 +82,7 @@ Um mehrere Laufwerke zu entfernen
 
 
 
+[[replace-the-node-in-the-chassis]]
 == Ersetzen Sie den Node im Chassis
 
 Nachdem Sie den fehlerhaften Node mithilfe der NetApp Element Software-UI aus dem Cluster entfernt haben, können Sie den Node physisch vom Chassis entfernen. Sie sollten den Ersatz-Node im selben Steckplatz im Chassis installieren, aus dem Sie den ausgefallenen Node entfernt haben.
@@ -203,6 +205,7 @@ TIP: Stellen Sie sicher, dass der Ersatz-Node auf die gleiche Weise wie die ande
 
 
 
+[[add-the-node-to-the-cluster]]
 == Fügen Sie den Node dem Cluster hinzu
 
 Wenn Sie dem Cluster einen Node hinzufügen oder neue Laufwerke in einem vorhandenen Node installieren, werden die Laufwerke automatisch nach Verfügbarkeit registriert. Sie müssen die Laufwerke zum Cluster entweder über die Element-UI oder -API hinzufügen, bevor sie am Cluster teilnehmen können.
@@ -238,6 +241,7 @@ Der Node wird in der Liste der aktiven Nodes angezeigt.
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

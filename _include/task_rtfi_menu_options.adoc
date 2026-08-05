@@ -27,6 +27,7 @@ NOTE: Wenden Sie sich an den NetApp Support, bevor Sie eine der folgenden Befehl
 |===
 
 
+[[upload-logs]]
 == Protokolle hochladen
 
 Sammeln Sie alle Protokolle auf dem System, und laden Sie sie gemäß dem folgenden Verfahren auf eine angegebene URL hoch.
@@ -50,6 +51,7 @@ Die Protokolldatei wird hochgeladen und als Archiv im angegebenen Verzeichnis ge
 
 
 
+[[use-the-support-tunnel]]
 == Den Stütztunnel verwenden
 
 Falls Sie technischen Support für Ihr NetApp HCI System oder SolidFire All-Flash-Storage-System benötigen, können Sie sich per Fernzugriff mit Ihrem System verbinden. Um eine Sitzung zu starten und Remote-Zugriff zu erhalten, kann der NetApp Support eine Reverse Secure Shell-(SSH)-Verbindung zu Ihrer Umgebung öffnen.
@@ -91,6 +93,7 @@ NOTE: SSH bleibt auf dem Management-Node aktiviert, wenn Sie ihn nicht deaktivie
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

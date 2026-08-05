@@ -17,12 +17,14 @@ Bevor Sie einen Node entfernen, müssen Sie mit der Methode alle Laufwerke entfe
 
 
 
+[[cluster-master-node-removal]]
 == Entfernen des Cluster Master Node
 
 Wenn Sie zum Entfernen des Cluster-Master-Node verwenden `RemoveNodes`, kann es bei der Methode zu einer Zeitdauer kommen, bevor eine Antwort zurückgegeben wird. Wenn der Methodenaufruf den Knoten nicht entfernt, führen Sie den Methodenaufruf erneut aus. Wenn Sie den Cluster-Master-Node zusammen mit anderen Nodes entfernen, sollten Sie einen separaten Aufruf verwenden, um den Cluster-Master-Node eigenständig zu entfernen.
 
 
 
+[[parameter]]
 == Parameter
 
 Diese Methode verfügt über den folgenden Eingabeparameter:
@@ -60,12 +62,14 @@ Ja.
 |===
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat keinen Rückgabewert.
 
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -82,6 +86,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -95,6 +100,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

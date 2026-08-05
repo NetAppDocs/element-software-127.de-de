@@ -17,6 +17,7 @@ Es können mehrere Cluster-Administratorkonten mit unterschiedlichen Berechtigun
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über den folgenden Eingabeparameter:
@@ -39,6 +40,7 @@ Nein
 |===
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -59,6 +61,7 @@ xref:reference_element_api_clusteradmin.adoc[ClusterAdmin] Array
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -74,6 +77,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -120,6 +124,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

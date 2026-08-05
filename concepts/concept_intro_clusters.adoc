@@ -32,6 +32,7 @@ NOTE: Ab Element Version 11.0 können Nodes mit IPv4, IPv6 oder beiden Adressen 
 
 
 
+[[authoritative-storage-clusters]]
 == Autorisierende Storage-Cluster
 
 Der Storage-Cluster ist der Storage-Cluster, mit dem NetApp Hybrid Cloud Control Benutzer authentifizieren kann.
@@ -46,18 +47,21 @@ Weitere Informationen zum Arbeiten mit Management-Storage-Cluster-Assets für No
 
 
 
+[[rule-of-thirds]]
 == Drittelregel
 
 Bei einer Kombination von Storage-Node-Typen in einem NetApp SolidFire Storage Cluster kann kein einzelner Storage-Node mehr als 33 % der gesamten Storage Cluster-Kapazität enthalten.
 
 
 
+[[stranded-capacity]]
 == Ungenutzte Kapazität
 
 Wenn ein neu hinzugefügter Node mehr als 50 % der gesamten Cluster-Kapazität beträgt, wird einige der Kapazitäten dieses Node unbrauchbar („ungenutzt“) gemacht, sodass die Kapazitätsregel eingehalten wird. Dies bleibt der Fall, bis mehr Storage-Kapazität hinzugefügt wird. Wenn ein sehr großer Node hinzugefügt wird, der auch die Kapazitätsregel nicht befolgt, kann der zuvor isolierte Node nicht mehr ungenutzt bleiben, während der neu hinzugefügte Node ungenutzt ist. Kapazität sollte immer paarweise hinzugefügt werden, um dies zu vermeiden. Wenn ein Node ungenutzt wird, ist ein geeigneter Cluster-Fehler zu werfen.
 
 
 
+[[storage-efficiency]]
 == Storage-Effizienz
 
 NetApp SolidFire Storage Cluster nutzen Deduplizierung, Komprimierung und Thin Provisioning, um den physischen Storage-Bedarf für das Speichern eines Volumes zu verringern.
@@ -78,6 +82,7 @@ Ein Thin Provisioning-Volume oder eine LUN ist eine LUN, bei der kein vorab rese
 
 
 
+[[storage-cluster-quorum]]
 == Storage Cluster Quorum
 
 Element Software erstellt ein Storage-Cluster von ausgewählten Nodes, wobei eine replizierte Datenbank der Clusterkonfiguration erhalten bleibt. Zur Teilnahme am Cluster-Ensemble sind mindestens drei Nodes erforderlich, um das Quorum für die Cluster-Ausfallsicherheit zu erhalten.

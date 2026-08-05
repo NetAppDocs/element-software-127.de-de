@@ -18,6 +18,7 @@ NOTE: Sie werden aufgefordert, sich mit Ihren NetApp Support-Anmeldedaten einzul
 
 
 
+[[netapp-element-software]]
 == NetApp Element Software
 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2884468["Versionshinweise zu NetApp Element Software 12.7"^]
@@ -39,6 +40,7 @@ NOTE: Sie werden aufgefordert, sich mit Ihren NetApp Support-Anmeldedaten einzul
 
 
 
+[[management-services]]
 == Management Services
 
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["Versionshinweise Für Management Services"^]
@@ -46,6 +48,7 @@ NOTE: Sie werden aufgefordert, sich mit Ihren NetApp Support-Anmeldedaten einzul
 
 
 
+[[netapp-element-plug-in-for-vcenter-server]]
 == NetApp Element Plug-in für vCenter Server
 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP3330676["Versionshinweise zu vCenter Plug-in 5.4"^] _NEU_
@@ -65,6 +68,7 @@ NOTE: Sie werden aufgefordert, sich mit Ihren NetApp Support-Anmeldedaten einzul
 
 
 
+[[storage-firmware]]
 == Storage-Firmware
 
 * https://docs.netapp.com/us-en/hci/docs/rn_storage_firmware_2.182.0.html["Speicher-Firmware-Paket 2.182.0 – Versionshinweise"^] _NEU_
@@ -81,6 +85,7 @@ NOTE: Sie werden aufgefordert, sich mit Ihren NetApp Support-Anmeldedaten einzul
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

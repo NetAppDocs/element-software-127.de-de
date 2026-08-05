@@ -47,6 +47,7 @@ Der Node wird in der Liste der aktiven Nodes angezeigt.
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:concept_system_manage_nodes_node_versioning_and_compatibility.adoc[Node-Versionierung und -Kompatibilität]

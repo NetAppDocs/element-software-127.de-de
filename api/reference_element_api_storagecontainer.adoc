@@ -15,6 +15,7 @@ Das storageContainer-Objekt enthält die Attribute eines virtuellen Volume-Stora
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -100,6 +101,7 @@ UUID-Array
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_liststoragecontainers.adoc[ListStorageContainer]

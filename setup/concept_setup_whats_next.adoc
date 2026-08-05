@@ -24,6 +24,7 @@ Nachdem Sie Element Software eingerichtet haben, managen Sie Storage, indem Sie 
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

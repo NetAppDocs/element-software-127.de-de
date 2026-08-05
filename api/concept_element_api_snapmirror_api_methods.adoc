@@ -46,6 +46,7 @@ Die SnapMirror API-Methoden werden von der Element Web-Benutzeroberfläche zum M
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

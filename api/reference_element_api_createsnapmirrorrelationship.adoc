@@ -15,6 +15,7 @@ Die Element Web-UI verwendet die `CreateSnapMirrorRelationship` Methode zum Erst
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über die folgenden Eingabeparameter:
@@ -115,6 +116,7 @@ Nein
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode verfügt über die folgenden Rückgabewerte:
@@ -135,6 +137,7 @@ xref:reference_element_api_snapmirrorrelationship.adoc[SnapMirror Beziehung]
 |===
 
 
+[[new-since-version]]
 == Neu seit Version
 
 10,1

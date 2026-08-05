@@ -15,6 +15,7 @@ Jeder Node enthält mindestens ein physisches Laufwerk, für das ein Teil der Da
 
 
 
+[[for-more-information]]
 == Finden Sie weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

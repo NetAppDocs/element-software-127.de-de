@@ -15,6 +15,7 @@ Das ClusterPair-Objekt enthält Informationen über Cluster, die mit dem lokalen
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -102,6 +103,7 @@ Zeichenfolge
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_listclusterpairs.adoc[ListenClusterpaare]

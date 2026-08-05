@@ -15,6 +15,7 @@ Sie können die Methode verwenden `GetNvramInfo`, um Informationen von jedem Nod
 
 
 
+[[parameter]]
 == Parameter
 
 Diese Methode verfügt über den folgenden Eingabeparameter:
@@ -37,6 +38,7 @@ Ja.
 |===
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -55,6 +57,7 @@ JSON Objekt
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -71,18 +74,21 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Aufgrund der Länge dieses Antwortbeispiels wird es in einem ergänzenden Thema dokumentiert.
 
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_response_example_getnvraminfo.adoc[GetNvramInfo]

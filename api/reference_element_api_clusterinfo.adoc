@@ -15,6 +15,7 @@ Das ClusterInfo-Objekt enthält Informationen, die der Node zur Kommunikation mi
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:

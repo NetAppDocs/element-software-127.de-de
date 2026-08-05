@@ -15,6 +15,7 @@ Das SnapMirrorNetworkInterface-Objekt enthält Informationen zu den Cluster-logi
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:

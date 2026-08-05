@@ -15,6 +15,7 @@ Das Node-Objekt enthält Informationen zu jedem Node im Cluster. Sie können die
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -225,6 +226,7 @@ xref:reference_element_api_virtualnetwork.adoc[VirtualNetwork] Array
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:reference_element_api_listactivenodes.adoc[ListenActiveNodes]

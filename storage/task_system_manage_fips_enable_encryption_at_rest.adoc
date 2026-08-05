@@ -19,6 +19,7 @@ Die Cluster-weite Verschlüsselung im Ruhezustand wird aktiviert und deaktiviert
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.adoc[Aktivieren und Deaktivieren der Verschlüsselung für ein Cluster]

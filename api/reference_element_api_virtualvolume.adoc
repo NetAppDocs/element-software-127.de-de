@@ -15,6 +15,7 @@ Das virtualVolume-Objekt enthält Konfigurationsinformationen über ein virtuell
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -146,6 +147,7 @@ xref:reference_element_api_volume.adoc[Datenmenge]
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:reference_element_api_listvirtualvolumes.adoc[ListVirtualVolumes]

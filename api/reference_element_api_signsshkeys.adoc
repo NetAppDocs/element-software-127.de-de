@@ -28,6 +28,7 @@ ssh -i <identity_file> sfreadonly@<node_ip>
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über die folgenden Eingabeparameter:
@@ -79,6 +80,7 @@ Nein
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode verfügt über die folgenden Rückgabewerte:
@@ -130,6 +132,7 @@ Zeichenfolge
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -147,6 +150,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -167,6 +171,7 @@ In diesem Beispiel wird ein öffentlicher Schlüssel signiert und zurückgegeben
 
 
 
+[[new-since-version]]
 == Neu seit Version
 
 12,5

@@ -15,6 +15,7 @@ Das Objekt QoSPolicy enthält Informationen über eine QoS-Richtlinie auf einem 
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -60,6 +61,7 @@ Integer-Array
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_getqospolicy.adoc[GetQoSPolicy]

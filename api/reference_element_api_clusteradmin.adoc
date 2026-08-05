@@ -15,6 +15,7 @@ Das ClusterAdmin-Objekt enthält Informationen über den aktuellen Cluster-Admin
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -74,6 +75,7 @@ Zeichenfolge
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_getcurrentclusteradmin.adoc[GetCurrentClusterAdmin]

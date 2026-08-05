@@ -15,6 +15,7 @@ Das keyServerkmip-Objekt beschreibt einen KMIP-Schlüsselserver (Key Management 
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:

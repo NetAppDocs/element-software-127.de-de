@@ -19,6 +19,7 @@ In den folgenden Szenarien werden mögliche Fehler-Szenarien beschrieben und gru
 
 
 
+[[system-slice-drive-fails]]
 == Systemscheibe schlägt fehl
 
 * In diesem Szenario wird der Steckplatz 2 überprüft und in einen verfügbaren Status zurückgeführt.
@@ -31,6 +32,7 @@ NOTE: Sie können das Laufwerk in Steckplatz 2 nicht selbst als Metadatenlaufwer
 
 
 
+[[slot-2-fails]]
 == Steckplatz 2 fällt aus
 
 * In diesem Szenario wird das Systemschichtlaufwerk überprüft und in einen verfügbaren Zustand zurückgeführt.
@@ -39,6 +41,7 @@ NOTE: Sie können das Laufwerk in Steckplatz 2 nicht selbst als Metadatenlaufwer
 
 
 
+[[system-slice-drive-and-slot-2-fails]]
 == System-Slice-Laufwerk und Steckplatz 2 schlägt fehl
 
 * Sie sollten beide Systemscheiben-Laufwerke und Steckplatz 2 durch ein Ersatzlaufwerk ersetzen. Wenn beide Laufwerke verfügbar sind, fügen Sie das Systemlaufwerk und das Laufwerk Steckplatz 2 gleichzeitig hinzu.
@@ -46,6 +49,7 @@ NOTE: Sie können das Laufwerk in Steckplatz 2 nicht selbst als Metadatenlaufwer
 
 
 
+[[order-of-operations]]
 == Reihenfolge der Vorgänge
 
 * Ersetzen Sie das ausgefallene Hardwarelaufwerk durch ein Ersatzlaufwerk (ersetzen Sie beide Laufwerke, wenn beide ausgefallen sind).
@@ -54,6 +58,7 @@ NOTE: Sie können das Laufwerk in Steckplatz 2 nicht selbst als Metadatenlaufwer
 
 
 
+[[verify-operations]]
 == Überprüfung des Betriebs
 
 * Überprüfen Sie, ob die Laufwerke in Steckplatz 0 (oder intern) und Steckplatz 2 in der Liste „Aktive Laufwerke“ als Metadatenlaufwerke identifiziert werden.
@@ -62,6 +67,7 @@ NOTE: Sie können das Laufwerk in Steckplatz 2 nicht selbst als Metadatenlaufwer
 
 
 
+[[for-more-information]]
 == Finden Sie weitere Informationen
 
 xref:task_troubleshoot_add_mdss_drives.adoc[Fügen Sie MDSS-Laufwerke hinzu]

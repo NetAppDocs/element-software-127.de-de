@@ -15,6 +15,7 @@ Sie können Cluster-Administratorkonten für ein SolidFire-Speichersystem verwal
 
 
 
+[[storage-cluster-administrator-account-types]]
 == Kontotypen für Storage-Cluster-Administratoren
 
 In einem Storage-Cluster mit NetApp Element Software können zwei Arten von Administratorkonten vorhanden sein: Das primäre Cluster-Administratorkonto und ein Cluster-Administratorkonto.
@@ -34,6 +35,7 @@ NOTE: Ein lokales (nicht-LDAP)-Cluster-Administratorkonto ist erforderlich, um �
 
 
 
+[[view-cluster-admin-details]]
 == Zeigen Sie Details zum Cluster-Administrator an
 
 . So erstellen Sie ein Cluster-weites (nicht-LDAP)-Cluster-Administratorkonto:
@@ -61,9 +63,13 @@ NOTE: Ein lokales (nicht-LDAP)-Cluster-Administratorkonto ist erforderlich, um �
 
 
 +
+[NOTE]
+====
+Alle Berechtigungen sind für den Zugriffstyp des Administrators verfügbar.
 
-NOTE: Alle Berechtigungen sind für den Zugriffstyp des Administrators verfügbar.
+Über die API stehen Zugriffstypen zur Verfügung, die in der Element UI nicht verfügbar sind.
 
+====
 +
 ** *Typ*: Der Typ des Clusteradministrators. Mögliche Werte:
 +
@@ -81,6 +87,8 @@ Siehe link:../api/index.html["NetApp Element Software-API-Referenz"].
 
 
 
+[[create-a-cluster-administrator-account]]
+[[create_cluster_admin_account]]
 == Erstellen eines Cluster-Administratorkontos
 
 Sie können neue Cluster-Administratorkonten mit Berechtigungen erstellen, um den Zugriff auf bestimmte Bereiche des Storage-Systems zu ermöglichen oder einzuschränken. Wenn Sie Berechtigungen für ein Cluster-Administratorkonto festlegen, gewährt das System schreibgeschützte Rechte für alle Berechtigungen, die Sie dem Cluster-Administrator nicht zuweisen.
@@ -128,6 +136,7 @@ Um LDAP Cluster Admin-Benutzer oder -Gruppen hinzuzufügen, lautet das allgemein
 
 
 
+[[edit-cluster-administrator-permissions]]
 == Berechtigungen für Cluster-Administratoren bearbeiten
 
 Sie können die Berechtigungen für Cluster-Administratorkonten für Berichterstellung, Nodes, Laufwerke, Volumes, Konten, Und Cluster-Level-Zugriff. Wenn Sie eine Berechtigung aktivieren, weist das System Schreibzugriff für diese Ebene zu. Das System gewährt dem Administrator-Benutzer schreibgeschützten Zugriff für die Ebenen, die Sie nicht auswählen.
@@ -141,6 +150,7 @@ Sie können die Berechtigungen für Cluster-Administratorkonten für Berichterst
 
 
 
+[[change-passwords-for-cluster-administrator-accounts]]
 == Ändern Sie Passwörter für Cluster-Administratorkonten
 
 Mithilfe der Element-UI können Sie die Kennwörter für den Cluster-Administrator ändern.
@@ -152,12 +162,9 @@ Mithilfe der Element-UI können Sie die Kennwörter für den Cluster-Administrat
 . Klicken Sie Auf *Änderungen Speichern*.
 
 
-
-
-== Weitere Informationen
-
+.Verwandte Informationen
+* link:../api/reference_element_api_app_b_access_control.html["Informationen zu den für Element APIs verfügbaren Zugriffstypen"]
 * link:task_system_manage_enable_ldap_authentication.html["Aktivieren Sie die LDAP-Authentifizierung über die Benutzeroberfläche von Element"]
 * link:concept_system_manage_manage_ldap.html["LDAP deaktivieren"]
-* https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]
 * https://docs.netapp.com/us-en/vcp/index.html["NetApp Element Plug-in für vCenter Server"^]
 

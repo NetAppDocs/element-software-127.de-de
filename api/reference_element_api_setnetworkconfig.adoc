@@ -15,6 +15,7 @@ Sie können die Methode verwenden `SetNetworkConfig`, um die Netzwerkkonfigurati
 
 
 
+[[parameter]]
 == Parameter
 
 ACHTUNG:
@@ -41,6 +42,7 @@ Nein
 |===
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -59,6 +61,7 @@ xref:reference_element_api_network_all_interfaces.adoc[Netzwerk (alle Schnittste
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -87,18 +90,21 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Die Antwort dieser Methode entspricht der Antwort der Methode GetNetworkConfig. Die Methode zeigt alle Mitglieder für jedes Objekt an und enthält die neuen Werte für alle geänderten Mitglieder.
 
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:reference_element_api_getnetworkconfig.adoc[GetNetworkConfig]

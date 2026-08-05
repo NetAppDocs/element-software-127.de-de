@@ -24,6 +24,7 @@ Die Verschlüsselung im Ruhezustand muss auf dem Cluster aktiviert sein und alle
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * link:../api/index.html["Storage-Management mit der Element API"]

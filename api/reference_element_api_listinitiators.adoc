@@ -15,6 +15,7 @@ Sie können die Methode verwenden `ListInitiators`, um die Liste der Initiator-I
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über die folgenden Eingabeparameter:
@@ -63,6 +64,7 @@ Nein
 |===
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -83,6 +85,7 @@ xref:reference_element_api_initiator.adoc[Initiator] Array
 |===
 
 
+[[exceptions]]
 == Ausnahmen
 
 Diese Methode kann die folgende Ausnahme haben:
@@ -101,6 +104,7 @@ Wird angezeigt, wenn Sie sowohl die StartInitiatorID als auch die Initiatoren-Pa
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -115,6 +119,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -140,6 +145,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

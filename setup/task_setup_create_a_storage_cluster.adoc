@@ -67,6 +67,7 @@ Das System kann je nach Anzahl der Nodes im Cluster mehrere Minuten dauern, bis 
 
 
 
+[[for-more-information]]
 == Finden Sie weitere Informationen
 
 * link:../api/index.html["Storage-Management mit der Element API"]

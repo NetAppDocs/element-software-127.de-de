@@ -34,6 +34,7 @@ NOTE: Dieser Prozess ist asynchron und gibt vor Aktivierung der Verschlüsselung
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über die folgenden Eingabeparameter:
@@ -56,12 +57,14 @@ Nein
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode hat keine Rückgabewerte.
 
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -76,6 +79,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-examples]]
 == Antwortbeispiele
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel aus der EnableVerschlüsselungAtRest-Methode ähnelt. Es gibt kein Ergebnis zu berichten.
@@ -115,6 +119,7 @@ Während die Verschlüsselung im Ruhezustand auf einem Cluster aktiviert wird, g
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

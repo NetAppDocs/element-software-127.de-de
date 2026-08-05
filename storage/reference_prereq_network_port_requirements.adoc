@@ -284,7 +284,7 @@ Management-Node
  a| 
 443
  a| 
-Upgrades der Element Storage-Firmware
+Element Storage Upgrades
 
 
 
@@ -546,6 +546,7 @@ VCenter Plug-in-Registrierung: Der Port kann nach Abschluss der Registrierung ge
 |===
 
 
+[[for-more-information]]
 == Finden Sie weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

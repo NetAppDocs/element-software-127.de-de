@@ -15,6 +15,7 @@ Sie können die Methode verwenden `ListActiveVolumes`, um die Liste der aktiven 
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über die folgenden Eingabeparameter:
@@ -63,6 +64,7 @@ Nein
 |===
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -83,6 +85,7 @@ xref:reference_element_api_volume.adoc[Datenmenge] Array
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -100,12 +103,14 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Aufgrund der Länge dieses Antwortbeispiels wird es in einem ergänzenden Thema dokumentiert.
 
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

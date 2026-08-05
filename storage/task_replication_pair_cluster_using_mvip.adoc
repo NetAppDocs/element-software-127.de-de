@@ -29,6 +29,7 @@ Geben Sie im Fenster *Authentifizierung erforderlich* den Cluster Administrator 
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:task_replication_pair_cluster_using_pairing_key.adoc[Koppeln Sie Cluster mithilfe eines Kopplschlüssels]

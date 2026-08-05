@@ -17,6 +17,7 @@ Auf der Seite Volumes auf der Registerkarte Management können Sie Volumes auf e
 
 
 
+[[create-a-volume]]
 == Erstellen eines Volumes
 
 Sie können ein Volume erstellen und das Volume einem bestimmten Konto zuordnen. Jedes Volume muss einem Konto zugeordnet sein. Mit dieser Zuordnung kann das Konto über die iSCSI-Initiatoren mit den CHAP-Anmeldeinformationen auf das Volume zugreifen.
@@ -59,6 +60,7 @@ Volumes mit einem IOPS-Wert von max oder Burst über 20,000 IOPS erfordern mögl
 
 
 
+[[view-volume-details]]
 == Zeigen Sie Volume-Details an
 
 . Wählen Sie *Management* > *Volumes*.
@@ -100,6 +102,7 @@ Volumes mit einem IOPS-Wert von max oder Burst über 20,000 IOPS erfordern mögl
 
 
 
+[[view-individual-volume-details]]
 == Details zu einzelnen Volumes anzeigen
 
 Sie können Performance-Statistiken für einzelne Volumes anzeigen.
@@ -118,6 +121,7 @@ Das System zeigt detaillierte Informationen sowie Performance-Diagramme für das
 
 
 
+[[edit-active-volumes]]
 == Aktive Volumes bearbeiten
 
 Volume-Attribute wie QoS-Werte, Volume-Größe und die Maßeinheit, in der Byte-Werte berechnet werden, können geändert werden. Außerdem haben Sie die Möglichkeit, den Kontozugriff für die Replizierungsnutzung zu ändern oder den Zugriff auf das Volume zu beschränken.
@@ -187,6 +191,7 @@ TIP: Konfigurieren Sie Volumes mit einem extrem hohen Burst-Wert. So kann das Sy
 
 
 
+[[delete-a-volume]]
 == Löschen Sie ein Volume
 
 Ein oder mehrere Volumes können aus einem Element Storage-Cluster gelöscht werden.
@@ -225,6 +230,7 @@ Das System verschiebt die Volumes in den Bereich *gelöscht* auf der Seite *Volu
 
 
 
+[[restore-a-deleted-volume]]
 == Wiederherstellen eines gelöschten Volumes
 
 Sie können ein Volume im System wiederherstellen, wenn es gelöscht, aber noch nicht gelöscht wurde. Etwa acht Stunden nach dem Löschen löscht das System ein Volume automatisch. Wenn das System das Volume gelöscht hat, können Sie es nicht wiederherstellen.
@@ -241,6 +247,7 @@ Das Volume wird in der Liste *Active* Volumes platziert und iSCSI-Verbindungen z
 
 
 
+[[purge-a-volume]]
 == Löschen Sie ein Volumen
 
 Wenn ein Volume gelöscht wird, wird es dauerhaft aus dem System entfernt. Alle Daten auf dem Volume gehen verloren.
@@ -280,6 +287,7 @@ Löschen mehrerer Volumes
 
 
 
+[[clone-a-volume]]
 == Klonen Sie ein Volume
 
 Sie können einen Klon eines einzelnen Volumes oder mehrerer Volumes erstellen, um eine zeitpunktgenaue Kopie der Daten zu erstellen. Wenn Sie ein Volume klonen, erstellt das System einen Snapshot des Volume und erstellt dann eine Kopie der Daten, auf die der Snapshot verweist. Dies ist ein asynchroner Prozess und die erforderliche Zeit hängt von der Größe des zum Klonen benötigten Volumes und der aktuellen Cluster-Last ab.
@@ -336,6 +344,7 @@ NOTE: Wenn Sie die Volume-Größe eines Klons erhöhen, führt dies zu einem neu
 
 
 
+[[for-more-information]]
 == Finden Sie weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

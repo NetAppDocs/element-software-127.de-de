@@ -15,6 +15,7 @@ Sie können die `SetConfig` Methode zum Festlegen der Netzwerk- und Cluster-Info
 
 
 
+[[parameter]]
 == Parameter
 
 ACHTUNG:
@@ -54,6 +55,7 @@ Nein
 |===
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -76,6 +78,7 @@ JSON Objekt
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -98,18 +101,21 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Die Antwort von dieser Methode ist die gleiche wie die Rückkehr für die getconfig Methode. Bei Verwendung von SetConfig werden alle Felder für die Objektanzeige und die aktualisierten Werte angezeigt.
 
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:reference_element_api_setclusterconfig.adoc[SetClusterConfig]

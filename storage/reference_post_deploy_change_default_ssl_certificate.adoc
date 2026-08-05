@@ -36,6 +36,7 @@ NOTE: Das Cluster-SSL-Zertifikat wird automatisch auf alle neuen Nodes angewende
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * link:../mnode/reference_change_mnode_default_ssl_certificate.html["Ändern Sie das Standard-SSL-Zertifikat für den Management-Node"]

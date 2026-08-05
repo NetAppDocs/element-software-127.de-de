@@ -36,6 +36,7 @@ Informationen zum Konfigurieren des Knotens nach erfolgreichem Abschluss des RTF
 
 
 
+[[perform-the-rtfi-process]]
 == Führen Sie den RTFI-Prozess aus
 
 Gehen Sie folgendermaßen vor, um die Element Software auf dem SolidFire-Knoten wiederherzustellen.
@@ -101,6 +102,7 @@ Wenn während des RTFI-Prozesses eine Fehlermeldung angezeigt wird, siehe xref:t
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

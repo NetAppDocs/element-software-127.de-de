@@ -76,6 +76,7 @@ Hier finden Sie eine grobe Übersicht über die Schritte:
 
 
 
+[[remove-the-drive-from-the-cluster]]
 == Entfernen Sie das Laufwerk aus dem Cluster
 
 Das SolidFire-System setzt ein Laufwerk in den Status „ausgefallen“, wenn die Selbstdiagnose des Laufwerks den Node angibt, an dem es ausgefallen ist, oder ob die Kommunikation mit dem Laufwerk fünf oder anderthalb Minuten lang unterbrochen wird. Das System zeigt eine Liste der ausgefallenen Laufwerke an. Entfernen Sie ein ausgefallenes Laufwerk aus der Liste ausgefallener Laufwerke in der NetApp Element Software.
@@ -115,6 +116,7 @@ Um mehrere Laufwerke zu entfernen
 
 
 
+[[replace-the-drive-from-the-chassis]]
 == Setzen Sie das Laufwerk aus dem Gehäuse wieder ein
 
 Nachdem Sie ein ausgefallenes Laufwerk in der Element UI aus der Liste ausgefallener Laufwerke entfernt haben, sind Sie bereit, das ausgefallene Laufwerk physisch aus dem Chassis zu ersetzen.
@@ -158,6 +160,7 @@ Der NetApp Support enthält Anweisungen zum Zurücksenden des ausgefallenen Lauf
 
 
 
+[[add-the-drive-to-the-cluster]]
 == Fügen Sie das Laufwerk dem Cluster hinzu
 
 Nachdem Sie ein neues Laufwerk im Gehäuse installiert haben, wird es als verfügbar registriert. Sie sollten das Laufwerk über die Element-UI zum Cluster hinzufügen, bevor es am Cluster teilnehmen kann.
@@ -193,6 +196,7 @@ Um mehrere Laufwerke hinzuzufügen
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

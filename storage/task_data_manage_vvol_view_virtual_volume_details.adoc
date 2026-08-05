@@ -31,6 +31,7 @@ Die Informationen für alle aktiven virtuellen Volumes werden angezeigt.
 
 
 
+[[details]]
 == Details
 
 Die Seite Virtual Volumes auf der Registerkarte VVols bietet Informationen zu jedem aktiven virtuellen Volume des Clusters, z. B. Volume-ID, Snapshot ID, ID des übergeordneten virtuellen Volumes und die ID des virtuellen Volumes.
@@ -55,6 +56,7 @@ Die Seite Virtual Volumes auf der Registerkarte VVols bietet Informationen zu je
 
 
 
+[[individual-virtual-volume-details]]
 == Details für einzelne virtuelle Volumes
 
 Die Seite Virtual Volumes auf der Registerkarte VVols bietet folgende Informationen zu virtuellen Volumes, wenn Sie ein einzelnes virtuelles Volume auswählen und dessen Details anzeigen.

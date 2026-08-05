@@ -17,6 +17,7 @@ Wenn Sie einen Snapshot-Zeitplan konfigurieren, können Sie zwischen verschieden
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:task_data_protection_create_a_snapshot_schedule.adoc[Erstellen eines Snapshot-Zeitplans]

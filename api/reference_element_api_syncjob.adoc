@@ -17,6 +17,7 @@ Sie können Synchronisierungsinformationen mit der API-Methode abrufen `ListSync
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -212,6 +213,7 @@ Zeichenfolge
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_listsyncjobs.adoc[ListSyncJobs]

@@ -26,18 +26,21 @@ TIP: Eine visuelle Darstellung der Anweisungen finden Sie imlink:../media/hserie
 
 
 
+[[workflow-diagrams]]
 == Workflow-Diagramme
 
 Die Workflow-Diagramme hier bieten einen allgemeinen Überblick über die Installationsschritte. Die Schritte variieren je nach Modell der H-Serie leicht.
 
 
 
+[[h410s]]
 === H410S
 
 image::../media/h410s_isi_workflow.png[H410S Installations-Workflow]
 
 
 
+[[h610s]]
 === H610S
 
 
@@ -47,6 +50,7 @@ image::../media/h610s_isi_workflow.png[H610S Installations-Workflow]
 
 
 
+[[prepare-for-installation]]
 == Installation vorbereiten
 
 Überprüfen Sie vor der Installation die gelieferten Hardware und wenden Sie sich an den NetApp Support, wenn Teile fehlen.
@@ -80,6 +84,7 @@ CAUTION: Achten Sie beim Einbau der Hardware darauf, dass Sie das gesamte Verpac
 
 
 
+[[install-the-rails]]
 == Installieren Sie die Schienen
 
 Die Hardwarebestellung, die Ihnen zugestellt wurde, enthält eine Reihe von Gleitschienen. Sie benötigen einen Schraubendreher, um die Schieneninstallation abzuschließen. Die Installationsschritte variieren für jedes Node-Modell entsprechend.
@@ -93,6 +98,7 @@ TIP: Installieren Sie die Hardware von der Unterseite des Racks bis zur Oberseit
 
 
 
+[[h410s]]
 === H410S
 
 H410S Nodes sind in einem 2-HE-Chassis mit vier Nodes der H-Series installiert, das mit zwei Adaptersätzen ausgeliefert wird. Wenn Sie das Gehäuse in einem Rack mit runden Löchern einsetzen möchten, verwenden Sie die Adapter für ein Rack mit runden Löchern. Die Schienen für H410S Nodes passen ein Rack zwischen 29 Zoll und 33.5 Zoll Tiefe. Wenn die Schiene vollständig zusammengeschraubt ist, ist sie 28 Zoll lang, und die vorderen und hinteren Abschnitte der Schiene werden zusammen mit nur einer Schraube gehalten.
@@ -115,6 +121,7 @@ image::../media/h410s_rail.gif[Schienenmontage für 2 HE]
 
 
 
+[[h610s]]
 === H610S
 
 Folgende Abbildung zeigt die Installation von Schienen für einen H610S Storage-Node:
@@ -126,6 +133,7 @@ TIP: Auf dem H610S befinden sich linke und rechte Schienen. Positionieren Sie di
 
 
 
+[[install-and-cable-the-nodes]]
 == Installieren und verkabeln Sie die Nodes
 
 Der H410S Storage-Node wird in einem 2-HE-Chassis mit vier Nodes installiert. Installieren Sie bei H610S das Chassis/Node direkt auf den Schienen im Rack.
@@ -139,6 +147,7 @@ CAUTION: Entfernen Sie das gesamte Verpackungsmaterial und die Verpackung vom Ge
 
 
 
+[[h410s]]
 === H410S
 
 .Schritte
@@ -181,6 +190,7 @@ image::../media/hci_poweron_isg.gif[Diese Abbildung zeigt die Netzschalter an de
 
 
 
+[[h610s]]
 === H610S
 
 .Schritte
@@ -219,6 +229,7 @@ image::../media/h600s_isi_nodefront.png[Diese Abbildung zeigt die Vorderseite de
 
 
 
+[[configure-the-nodes]]
 == Konfigurieren Sie die Nodes
 
 Nachdem Sie die Hardware im Rack untergebracht und verkabeln, können Sie Ihre neue Speicherressource konfigurieren.
@@ -244,6 +255,7 @@ TIP: Siehe https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrast
 
 
 
+[[create-a-cluster]]
 == Erstellen eines Clusters
 
 Nachdem Sie der Installation den Speicherknoten hinzugefügt und die neue Speicherressource konfiguriert haben, können Sie ein neues Storage-Cluster erstellen
@@ -255,6 +267,7 @@ Nachdem Sie der Installation den Speicherknoten hinzugefügt und die neue Speich
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

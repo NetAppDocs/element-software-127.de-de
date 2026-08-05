@@ -15,6 +15,7 @@ Sie können mit dem `GetClusterCapacity` allgemeine Kapazitätsmessungen für ei
 
 
 
+[[efficiency-calculations]]
 == Effizienzberechnungen
 
 Berechnen Sie Thin Provisioning, Deduplizierung und Komprimierung mit den folgenden Gleichungen. Diese Gleichungen gelten für Element 8.2 und höher.
@@ -26,6 +27,7 @@ Berechnen Sie Thin Provisioning, Deduplizierung und Komprimierung mit den folgen
 
 
 
+[[overall-efficiency-rate-calculation]]
 == Gesamteffizienzrate Berechnung
 
 Mithilfe der folgenden Gleichung berechnen Sie die Cluster-Effizienz insgesamt anhand der Ergebnisse der Effizienzberechnungen mit Thin Provisioning, Deduplizierung und Komprimierung.
@@ -35,12 +37,14 @@ Mithilfe der folgenden Gleichung berechnen Sie die Cluster-Effizienz insgesamt a
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode hat keine Eingabeparameter.
 
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -59,6 +63,7 @@ xref:reference_element_api_clustercapacity.adoc[ClusterKapazität]
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -73,6 +78,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -112,6 +118,7 @@ Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

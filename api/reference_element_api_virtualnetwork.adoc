@@ -15,6 +15,7 @@ Das VirtualNetwork-Objekt enthält Informationen über ein bestimmtes virtuelles
 
 
 
+[[object-members]]
 == Objektmitglieder verwenden
 
 Dieses Objekt enthält die folgenden Mitglieder:
@@ -101,6 +102,7 @@ Ganzzahl
 |===
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_listvirtualnetworks.adoc[ListVirtualNetworks]

@@ -15,12 +15,14 @@ Sie können die Methode verwenden `GetHardwareConfig`, um Informationen zur Hard
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode hat keine Eingabeparameter.
 
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -33,6 +35,7 @@ Diese Methode hat den folgenden Rückgabewert:
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -47,6 +50,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Die Antworten für diese Methode sind dem folgenden Beispiel ähnlich.
@@ -131,6 +135,7 @@ Die Antworten für diese Methode sind dem folgenden Beispiel ähnlich.
 ----
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

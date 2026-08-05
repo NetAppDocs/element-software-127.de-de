@@ -23,6 +23,7 @@ Verwenden Sie die folgenden unterstützten API-Methoden, um statistische Informa
 
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

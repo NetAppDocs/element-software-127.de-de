@@ -15,6 +15,7 @@ Mit dieser Methode können `GetClusterHardwareInfo` Sie den Hardwarestatus und I
 
 
 
+[[parameter]]
 == Parameter
 
 Diese Methode verfügt über den folgenden Eingabeparameter:
@@ -47,6 +48,7 @@ Nein
 |===
 
 
+[[return-value]]
 == Rückgabewert
 
 Diese Methode hat den folgenden Rückgabewert:
@@ -67,6 +69,7 @@ xref:reference_element_api_hardwareinfo.adoc[HardwareInfo]
 |===
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -83,18 +86,21 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example]]
 == Antwortbeispiel
 
 Aufgrund der Länge dieses Antwortbeispiels wird es in einem ergänzenden Thema dokumentiert.
 
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:reference_element_api_response_example_getclusterhardwareinfo.adoc[GetClusterHardware-Informationen]

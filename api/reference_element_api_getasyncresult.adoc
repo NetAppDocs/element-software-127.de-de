@@ -19,6 +19,7 @@ Wenn der Parameter keepResult fehlt oder falsch ist, wird Async bei der Rückgab
 
 
 
+[[parameters]]
 == Parameter
 
 Diese Methode verfügt über die folgenden Eingabeparameter:
@@ -54,6 +55,7 @@ Nein
 |===
 
 
+[[return-values]]
 == Rückgabewerte
 
 Diese Methode verfügt über die folgenden Rückgabewerte:
@@ -132,6 +134,7 @@ ISO 8601-Datumszeichenfolge
 
 
 
+[[request-example]]
 == Anforderungsbeispiel
 
 Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
@@ -148,6 +151,7 @@ Anforderungen für diese Methode sind ähnlich wie das folgende Beispiel:
 ----
 
 
+[[response-example-method-error]]
 == Antwortbeispiel: Methodenfehler
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -167,6 +171,7 @@ Wenn "Response" das JSON-Antwortobjekt aus dem GetAsyncResult-Aufruf wäre, dann
 
 
 
+[[response-example-asynchronous-task-error]]
 == Beispiel für eine Antwort: Asynchronous Task error
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -193,6 +198,7 @@ Die "`response.result.error`" würde einem Fehlerergebnis aus dem ursprüngliche
 
 
 
+[[response-example-asynchronous-task-success]]
 == Antwortbeispiel: Asynchrone Aufgabe erfolgreich
 
 Diese Methode gibt eine Antwort zurück, die dem folgenden Beispiel ähnelt:
@@ -218,6 +224,7 @@ Die "`response.result.result`" ist der Rückgabewert für den ursprünglichen Me
 
 
 
+[[new-since-version]]
 == Neu seit Version
 
 9,6

@@ -37,6 +37,7 @@ Das Herunterfahren eines Node sollte unter Anleitung von NetApp Support erfolgen
 
 
 
+[[for-more-information]]
 == Finden Sie weitere Informationen
 
 https://library.netapp.com/ecm/ecm_download_file/ECMLP2844772["Austausch eines fehlerhaften SolidFire-Chassis"]

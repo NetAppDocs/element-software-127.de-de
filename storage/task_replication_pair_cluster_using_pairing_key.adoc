@@ -39,6 +39,7 @@ IMPORTANT: Ändern Sie keine Zeichen im Kopplungsschlüssel. Der Schlüssel wird
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 * xref:task_replication_pair_cluster_using_mvip.adoc[Koppeln Sie Cluster mit MVIP]

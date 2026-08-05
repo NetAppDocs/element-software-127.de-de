@@ -21,6 +21,7 @@ Sie können Ihr System in der Element UI verwalten. Dies ermöglicht die Multi-F
 
 
 
+[[for-more-information]]
 == Finden Sie weitere Informationen
 
 * https://docs.netapp.com/us-en/element-software/index.html["Dokumentation von SolidFire und Element Software"]

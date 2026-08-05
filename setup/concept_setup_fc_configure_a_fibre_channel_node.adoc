@@ -31,6 +31,7 @@ WWPNs sind im System registriert, wenn Sie ein neues Cluster mit Nodes erstellen
 
 
 
+[[find-more-information]]
 == Weitere Informationen
 
 xref:task_setup_fc_add_fibre_channel_nodes_to_a_cluster.adoc[Fügen Sie einem Cluster Fibre Channel Nodes hinzu]
